@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/
+permalink: task-manage-capacity-based-licenses.html
 keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet
 summary: Manage your capacity-based licenses from the Digital Wallet to ensure that your NetApp account has enough capacity for your Cloud Volumes ONTAP systems.
 ---
