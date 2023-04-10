@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: concept-licensing.html
+permalink: concept-digital-wallet.html
 keywords: digital wallet, bluexp digital wallet, licensing, licenses, services, supported services
 summary: The BlueXP digital wallet enables you to manage and monitor licenses and subscriptions for storage services, data services, and NetApp Keystone.
 ---
