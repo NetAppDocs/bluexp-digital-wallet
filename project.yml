@@ -22,8 +22,10 @@ sidebar:
       entries:
         - title: Manage licenses for Cloud Volumes ONTAP
           entries:
+            - title: Licensing overview
+              url: /concept-licensing.html
             - title: Capacity-based licenses
-              url: /task-manage-capacity-based-licenses.html
+              url: /task-manage-capacity-licenses.html
             - title: Node-based licenses
               url: /task-manage-node-licenses.html
         - title: Manage licenses for BlueXP data services
