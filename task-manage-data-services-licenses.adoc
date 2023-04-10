@@ -43,7 +43,7 @@ You can find your BlueXP Account ID by selecting the *Account* drop-down from th
 
 == Add a license
 
-After you purchase a Cloud Backup license for your NetApp account, you need to add the license to BlueXP.
+After you purchase a license for a BlueXP data service, you need to add the license to BlueXP.
 
 .Steps
 
@@ -78,7 +78,7 @@ image:screenshot_services_license_expire.png[A screenshot that shows an expiring
 After you pay for the license and it is registered with the NetApp Support Site, BlueXP automatically updates the license in the Digital Wallet and the Data Services Licenses page will reflect the change in 5 to 10 minutes.
 
 . If BlueXP can't automatically update the license (for example, when installed in a dark site), then you'll need to manually upload the license file.
-.. You can <<Obtain your Cloud Backup license file,obtain the license file from the NetApp Support Site>>.
+.. You can <<Obtain a license file,obtain the license file from the NetApp Support Site>>.
 .. On the _Data Services Licenses_ tab, click image:screenshot_horizontal_more_button.gif[More icon] for the service serial number you are updating, and click *Update License*.
 +
 image:screenshot_services_license_update1.png[A screenshot of selecting the Update License button for a particular service.]
