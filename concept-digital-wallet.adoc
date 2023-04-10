@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concept-digital-wallet.html
 keywords: digital wallet, bluexp digital wallet, licensing, licenses, services, supported services
-summary: The BlueXP digital wallet enables you to manage and monitor licenses and subscriptions for storage services, data services, and NetApp Keystone.
+summary: "The BlueXP digital wallet enables you to manage and monitor licenses and subscriptions for BlueXP storage services and data services, which includes marketplace subscriptions, licenses purchased from NetApp (BYOL), and NetApp Keystone."
 ---
 
 = BlueXP digital wallet overview
@@ -13,7 +13,7 @@ summary: The BlueXP digital wallet enables you to manage and monitor licenses an
 :imagesdir: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/
 
 [.lead]
-The BlueXP digital wallet enables you to manage and monitor licenses and subscriptions for storage services, data services, and NetApp Keystone.
+The BlueXP digital wallet enables you to manage and monitor licenses and subscriptions for BlueXP storage services and data services, which includes marketplace subscriptions, licenses purchased from NetApp (BYOL), and NetApp Keystone.
 
 == Features
 
