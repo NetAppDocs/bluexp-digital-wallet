@@ -10,7 +10,7 @@ summary: The BlueXP digital wallet enables you to manage licenses that you purch
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: https://docs.netapp.com/us-en/cloud-manager-backup-restore/blob/main/
+:imagesdir: https://docs.netapp.com/us-en/cloud-manager-backup-restore/main/
 
 [.lead]
 The BlueXP digital wallet enables you to manage licenses that you purchased directly from NetApp (BYOL) for use with Cloud Backup, Cloud Data Sense, and Cloud Tiering.
@@ -18,8 +18,8 @@ The BlueXP digital wallet enables you to manage licenses that you purchased dire
 The instructions on this page provide generic instructions that apply to each service. For more specific information about the licensing for these services, refer to the following pages:
 
 * https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-backup.html[Set up licensing for Cloud Backup^]
-* https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html[https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html^]
-* https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering.html[https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering.html^]
+* https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html[Set up licensing for Cloud Data Sense^]
+* https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering.html[Set up licensing for Cloud Tiering^]
 
 == Obtain a license file
 
