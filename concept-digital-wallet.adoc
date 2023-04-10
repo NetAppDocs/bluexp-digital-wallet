@@ -25,7 +25,7 @@ The BlueXP digital wallet enables you to manage and monitor licenses and subscri
 
 == Supported services
 
-The BlueXP digital wallet enables you to manage licensing for the following:
+The BlueXP digital wallet enables you to manage licensing for the following BlueXP services:
 
 * Cloud Backup
 * Cloud Data Sense
