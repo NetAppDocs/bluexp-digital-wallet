@@ -15,7 +15,7 @@ summary: "The BlueXP digital wallet enables you to manage licenses that you purc
 [.lead]
 The BlueXP digital wallet enables you to manage licenses that you purchased directly from NetApp (BYOL) for use with Cloud Backup, Cloud Data Sense, and Cloud Tiering. You can view used license capacity, how much free capacity you have left, and you'll see notifications if you reached the capacity limit or the expiration date.
 
-The instructions on this page provide generic instructions that apply to each service. For more specific information about the licensing for these services, refer to the following pages:
+The instructions on this page provide information that applies to each service. For more specific information about the licensing for these services, refer to the following pages:
 
 * https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-backup.html[Set up licensing for Cloud Backup^]
 * https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html[Set up licensing for Cloud Data Sense^]
@@ -55,7 +55,7 @@ After you purchase a license for a BlueXP data service, you need to add the lice
 +
 * If you have the serial number and know your NSS account, select the *Enter Serial Number* option and enter that information.
 +
-If your NetApp Support Site account isn't available from the drop-down list, https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html[add the NSS account to BlueXP^].
+If your NetApp Support Site account isn't available from the drop-down list, https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html[add the NSS account to BlueXP^]
 
 * If you have the license file (required when using BlueXP in private mode), select the *Upload License File* option and follow the prompts to attach the file.
 +
@@ -77,7 +77,7 @@ image:screenshot_services_license_expire.png[A screenshot that shows an expiring
 +
 After you pay for the license and it is registered with the NetApp Support Site, BlueXP automatically updates the license in the Digital Wallet and the Data Services Licenses page will reflect the change in 5 to 10 minutes.
 
-. If BlueXP can't automatically update the license (for example, when installed in a dark site), then you'll need to manually upload the license file.
+. If BlueXP can't automatically update the license (for example, when using BlueXP in private mode), then you'll need to manually upload the license file.
 .. You can <<Obtain a license file,obtain the license file from the NetApp Support Site>>.
 .. On the _Data Services Licenses_ tab, click image:screenshot_horizontal_more_button.gif[More icon] for the service serial number you are updating, and click *Update License*.
 +

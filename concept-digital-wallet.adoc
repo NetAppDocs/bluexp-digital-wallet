@@ -19,7 +19,7 @@ The BlueXP digital wallet enables you to manage and monitor licenses and subscri
 
 * Manage capacity-based and node-based licenses for Cloud Volumes ONTAP
 * Add and manage licenses for BlueXP data services
-* Manage BlueXP subscriptions for PAYGO and annual contracts
+* Manage subscriptions for PAYGO and annual contracts associated with your BlueXP account and with Astra
 * Manage Keystone Flex Subscriptions for use with Cloud Volumes ONTAP and request changes to committed capacity
 * View hardware and software contract status information for on-premises ONTAP clusters
 

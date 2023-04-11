@@ -19,6 +19,9 @@ The BlueXP digital wallet enables you to view contract details for each of your 
 
 The BlueXP digital wallet displays details about the on-premises ONTAP clusters that you discovered as a working environment or that are associated with a NetApp Support Site account that you added to BlueXP.
 
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html[Learn how to discover an on-premises ONTAP cluster^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html[Learn how to manage NSS credentials associated with your BlueXP account^]
+
 == View cluster information and contract details
 
 View the status of the hardware and software contracts for your on-premises ONTAP clusters so that you can renew them before they expire. 
@@ -43,6 +46,12 @@ image:screenshot_digital_wallet_license_info.png[A screenshot of expanding the c
 
 If you haven't discovered an on-premises ONTAP cluster as a working environment, you can do that from the BlueXP digital wallet. Once discovered, a cluster is available as a working environment in BlueXP so that you can manage it.
 
+.Before you begin
+
+You should understand your discovery and management options (discovery using a Connector or direct discovery without a Connector) as well as discovery requirements.
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html[Learn about discovery options and requirements^].
+
 .Steps
 
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
@@ -62,13 +71,14 @@ If you are prompted to enter your NetApp Support Site (NSS) account credentials 
 image:screenshot_discover_ontap_wallet.png[A screenshot that shows an example of the ONTAP Cluster Details page: the cluster management IP address, user name and password.]
 +
 Note that the cluster management IP address is populated based on information from your NetApp Support Site account.
-+
-The status for the cluster turns to *Discovered* in the _On-Premises ONTAP_ page.
 
 .Result
 
-BlueXP discovers the cluster and adds it as a working environment in the Canvas. The working environment name is the name of the cluster.
+BlueXP discovers the cluster and adds it as a working environment in the Canvas. The status for the cluster turns to *Discovered* in the _On-Premises ONTAP_ page. Note that the working environment name is the name of the cluster.
 
 image:screenshot_onprem_cluster.png[A screenshot of an on-prem ONTAP cluster in the Canvas.]
 
-You can enable services for this cluster in the right panel to replicate data to and from the cluster, set up data tiering to the cloud, back up volumes to the cloud, or run compliance scans on the volumes. You can also create new volumes or launch System Manager to perform advanced tasks.
+You can now start managing the cluster.
+
+* link:task-manage-ontap-connector.html[Learn how to manage clusters discovered with a Connector]
+* link:task-manage-ontap-direct.html[Learn how to manage clusters discovered directly]
