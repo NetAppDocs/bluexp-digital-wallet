@@ -14,7 +14,7 @@ sidebar:
       url: /whats-new.html
     - title: Get started
       entries:
-        - title: Digital wallet overview
+        - title: Learn about the BlueXP digital wallet
           url: /concept-digital-wallet.html
         - title: Before you get started
           url: /concept-before-you-begin.html
@@ -52,24 +52,16 @@ homepage:
   tiles:
     - title: Get started
       links:
-        - title: Learn about BlueXP
-          url: concept-overview.html
-        - title: Learn about deployment modes
-          url: concept-modes.html
-        - title: Get started with standard mode
-          url: /task-quick-start-standard-mode.html
-        - title: Get started with restricted mode
-          url: /task-quick-start-restricted-mode.html
-        - title: Get started with private mode
-          url: /task-quick-start-private-mode.html
-    - title: BlueXP accounts
+        - title: Learn about the BlueXP digital wallet
+          url: concept-digital-wallet.html
+    - title: Manage your licenses
       links:
-        - title: Learn about BlueXP accounts
-          url: concept-netapp-accounts.html
-        - title: Manage your BlueXP account
-          url: task-managing-netapp-accounts.html
-        - title: Monitor operations in your account
-          url: task-monitor-cm-operations.html
+        - title: Manage capacity-based licenses for Cloud Volumes ONTAP
+          url: task-manage-capacity-licenses.html
+        - title: Manage licenses for BlueXP data services
+          url: task-manage-data-services-licenses.html
+        - title: Manage PAYGO subscriptions and contracts
+          url: task-manage-subscriptions.html
     - title: Blogs & community
       links:
         - title: NetApp Community
