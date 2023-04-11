@@ -22,8 +22,6 @@ sidebar:
       entries:
         - title: Manage licenses for Cloud Volumes ONTAP
           entries:
-            - title: Licensing overview
-              url: /concept-licensing.html
             - title: Capacity-based licenses
               url: /task-manage-capacity-licenses.html
             - title: Node-based licenses
