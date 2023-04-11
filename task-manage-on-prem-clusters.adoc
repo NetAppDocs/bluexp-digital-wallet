@@ -13,11 +13,15 @@ summary: The BlueXP digital wallet enables you to view contract details for each
 :imagesdir: ./media/
 
 [.lead]
-The BlueXP digital wallet enables you to view contract details for each of your on-prem ONTAP clusters. If you haven't discovered a cluster in BlueXP yet, you can also do that from the digital wallet.
+The BlueXP digital wallet enables you to view contract details for each of your on-prem ONTAP clusters. If you haven't discovered a cluster in BlueXP yet, you can also discover them from the digital wallet.
+
+.Before you begin
+
+The BlueXP digital wallet displays details about the on-premises ONTAP clusters that you discovered as a working environment or that are associated with a NetApp Support Site account that you added to BlueXP.
 
 == View cluster information and contract details
 
-The BlueXP digital wallet enables you to view cluster details and hardware and software contract status.
+View the status of the hardware and software contracts for your on-premises ONTAP clusters so that you can renew them before they expire. 
 
 .Steps
 
@@ -26,6 +30,8 @@ The BlueXP digital wallet enables you to view cluster details and hardware and s
 . Select *On-Premises ONTAP*.
 +
 The Software Contract and Hardware Contract expiration dates appear on the line for each cluster.
++
+If you are prompted to enter your NetApp Support Site (NSS) account credentials first, select *Add NSS Account*. After you add the account, the clusters associated with that NSS account appear.
 
 . If the contract is close to the expiration date, or has expired, you can click the chat icon in the lower-right of the BlueXP console to request an extension to the contract.
 
@@ -35,7 +41,7 @@ image:screenshot_digital_wallet_license_info.png[A screenshot of expanding the c
 
 == Discover clusters
 
-You can discover your ONTAP clusters from the BlueXP digital wallet. Once discovered, they are available as a working environment in BlueXP so that you can manage the cluster.
+If you haven't discovered an on-premises ONTAP cluster as a working environment, you can do that from the BlueXP digital wallet. Once discovered, a cluster is available as a working environment in BlueXP so that you can manage it.
 
 .Steps
 
@@ -47,7 +53,7 @@ image:screenshot_digital_wallet_onprem_main.png[A screenshot of the Digital Wall
 +
 Your ONTAP clusters display with a status of whether they have been discovered in BlueXP.
 +
-If you are prompted to enter your NetApp Support Site (NSS) account credentials first, enter them in the Support Dashboard. After you have added the account, the clusters that are included in that account are displayed.
+If you are prompted to enter your NetApp Support Site (NSS) account credentials first, select *Add NSS Account*. After you add the account, the clusters associated with that NSS account appear.
 
 . Click *Discover* for the cluster that you want to manage through BlueXP.
 
