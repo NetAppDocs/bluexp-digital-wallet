@@ -80,5 +80,5 @@ image:screenshot_onprem_cluster.png[A screenshot of an on-prem ONTAP cluster in 
 
 You can now start managing the cluster.
 
-* link:task-manage-ontap-connector.html[Learn how to manage clusters discovered with a Connector]
-* link:task-manage-ontap-direct.html[Learn how to manage clusters discovered directly]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-connector.html[Learn how to manage clusters discovered with a Connector]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html[Learn how to manage clusters discovered directly]
