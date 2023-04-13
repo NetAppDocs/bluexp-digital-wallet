@@ -23,7 +23,7 @@ The instructions on this page provide information that applies to each service. 
 
 == Obtain a license file
 
-After you purchase a license, you can activate the license in BlueXP either by entering the serial number and NSS account, or by uploading the NLF license file. The steps below show how to get the NLF license file if you plan to use that method.
+After you purchase a license, you can activate the license in BlueXP either by entering the serial number and NSS account, or by uploading the NetApp license file (NLF). The steps below show how to get the NLF license file if you plan to use that method.
 
 .Steps
 
