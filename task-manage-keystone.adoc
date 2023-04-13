@@ -1,0 +1,15 @@
+---
+sidebar: sidebar
+permalink: task-manage-keystone.html
+keywords: license, licensing, install, keystone, requst capacity, link subscription, add keystone subscription, keystone subscription
+summary: The Digital Wallet page enables you to manage licenses for Cloud Volumes ONTAP from a single location. You can add new licenses and update existing licenses.
+---
+
+= Manage Keystone Flex Subscriptions
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/
+
+include::https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/task-manage-keystone.adoc[lines=15..-1]

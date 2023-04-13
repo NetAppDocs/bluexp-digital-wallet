@@ -1,0 +1,34 @@
+---
+sidebar: sidebar
+permalink: concept-digital-wallet.html
+keywords: digital wallet, bluexp digital wallet, licensing, licenses, services, supported services
+summary: "The BlueXP digital wallet enables you to manage and monitor BlueXP licenses purchased from NetApp (BYOL), BlueXP marketplace subscriptions, and NetApp Keystone."
+---
+
+= Learn about the BlueXP digital wallet
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/
+
+[.lead]
+The BlueXP digital wallet enables you to manage and monitor BlueXP licenses purchased from NetApp (BYOL), BlueXP marketplace subscriptions, and NetApp Keystone.
+
+== Features
+
+* Manage capacity-based and node-based licenses for Cloud Volumes ONTAP
+* Add and manage licenses for BlueXP data services
+* Manage subscriptions for PAYGO and annual contracts associated with your BlueXP account and with Astra
+* Manage Keystone Flex Subscriptions for use with Cloud Volumes ONTAP and request changes to committed capacity
+* View hardware and software contract status information for on-premises ONTAP clusters
+
+== Supported services
+
+The BlueXP digital wallet enables you to manage licensing for the following BlueXP services:
+
+* Cloud Backup
+* Cloud Data Sense
+* Cloud Tiering
+* Cloud Volumes ONTAP
+* On-prem ONTAP clusters
