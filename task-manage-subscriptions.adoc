@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task-manage-subscriptions.html
 keywords: digital wallet, subscriptions, paygo subscriptions, contracts, annual contracts
-summary: When you subscribe to BlueXP from a cloud provider's marketplace, you're redirected to the BlueXP website where you need to save your subscription and associate it with specific accounts. After you've subscribed, each subscription is available to manage from the Digital Wallet.
+summary: When you subscribe to BlueXP from a cloud provider's marketplace, you're redirected to the BlueXP website where you need to save your subscription and associate it with specific accounts. After you've subscribed, each subscription is available to manage from the BlueXP digital wallet.
 ---
 
 = Manage PAYGO subscriptions and contracts
@@ -13,11 +13,11 @@ summary: When you subscribe to BlueXP from a cloud provider's marketplace, you'r
 :imagesdir: ./media/
 
 [.lead]
-When you subscribe to BlueXP from a cloud provider's marketplace, you're redirected to the BlueXP website where you need to save your subscription and associate it with specific accounts. After you've subscribed, each subscription is available to manage from the Digital Wallet. 
+When you subscribe to BlueXP from a cloud provider's marketplace, you're redirected to the BlueXP website where you need to save your subscription and associate it with specific accounts. After you've subscribed, each subscription is available to manage from the BlueXP digital wallet. 
 
 == View your subscriptions
 
-The Digital Wallet provides details about each PAYGO subscription and annual contract associated with your BlueXP account and with Astra (Astra uses BlueXP's charging service).
+The BlueXP digital wallet provides details about each PAYGO subscription and annual contract associated with your BlueXP account and with Astra Control (Astra Control uses BlueXP's charging service).
 
 .Steps
 
@@ -31,7 +31,7 @@ You'll only see the subscriptions that are associated with the account that you'
 +
 * Expand a row to view more details.
 +
-image:screenshot-subscriptions-expand.png[A screenshot of the Subscriptions tab in the Digital Wallet where you can select the arrow at the end of a row to expand it.]
+image:screenshot-subscriptions-expand.png[A screenshot of the Subscriptions tab in the digital wallet where you can select the arrow at the end of a row to expand it.]
 
 * Select image:icon-column-selector.png[the plus icon at the end of the table header] to choose which columns appear in the table. 
 +
@@ -47,13 +47,13 @@ N/A::
 If you see N/A in the table, the information isn't available from the cloud provider's API at this time.
 
 Contracts::
-* If you expand the details for a contract, the Digital Wallet shows what's available for your current plan: the contract options and units (capacity or number of nodes).
-* The Digital Wallet will identify the end date and whether the contract will renew soon, end soon, or whether it has already ended.
+* If you expand the details for a contract, the BlueXP digital wallet shows what's available for your current plan: the contract options and units (capacity or number of nodes).
+* The BlueXP digital wallet identifies the end date and whether the contract will renew soon, end soon, or whether it has already ended.
 * If you have an AWS contract and you changed any of the contract's options after the start date, be sure to validate your contract options from the AWS Marketplace.
 
 == Manage your subscriptions
 
-You can manage your subscriptions from the Digital Wallet by renaming a subscription and choosing the accounts that are associated with the subscription.
+You can manage your subscriptions from the BlueXP digital wallet by renaming a subscription and choosing the accounts that are associated with the subscription.
 
 For example, let's say that you have two accounts and each is billed through separate subscriptions. You might disassociate a subscription from one of the accounts so the users in that account don't accidentally choose the wrong subscription when creating a Cloud Volumes ONTAP working environment.
 
