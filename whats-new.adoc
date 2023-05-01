@@ -17,6 +17,12 @@ Learn what's new with the BlueXP digital wallet.
 //All links and images must use the absolute URL.
 
 //tag::whats-new[]
+== 7 May 2023
+
+=== Google Cloud private offers
+
+The BlueXP digital wallet now identifies Google Cloud Marketplace subscriptions that are associated with a private offer and shows the end date and term of the subscription. This enhancement enables you to verify that you've successfully accepted the private offer and to validate its terms.
+
 == 3 April 2023
 
 === Email notifications
