@@ -10,6 +10,6 @@ summary: Manage your node-based licenses in the Digital Wallet to ensure that ea
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/
+:imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
-include::https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/task-manage-node-licenses.adoc[lines=15..-1]
+include::https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/task-manage-node-licenses.adoc[lines=15..-1]
