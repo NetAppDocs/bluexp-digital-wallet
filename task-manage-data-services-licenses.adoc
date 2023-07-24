@@ -27,19 +27,19 @@ After you purchase a license, you can activate the license in BlueXP either by e
 
 .Steps
 
-. Sign in to the https://mysupport.netapp.com[NetApp Support Site^] and click *Systems > Software Licenses*.
+. Sign in to the https://mysupport.netapp.com[NetApp Support Site^] and select *Systems > Software Licenses*.
 
 . Enter the serial number for your license.
 +
 image:screenshot_cloud_backup_license_step1.gif[A screenshot that shows a table of licenses after searching by serial number.]
 
-. In the *License Key* column, click *Get NetApp License File*.
+. In the *License Key* column, select *Get NetApp License File*.
 
-. Enter your BlueXP Account ID (this is called a Tenant ID on the support site) and click *Submit* to download the license file.
+. Enter your BlueXP Account ID (this is called a Tenant ID on the support site) and select *Submit* to download the license file.
 +
-image:screenshot_cloud_backup_license_step2.gif[A screenshot that shows the get license dialog box where you enter your tenant ID and then click Submit to download the license file.]
+image:screenshot_cloud_backup_license_step2.gif[A screenshot that shows the get license dialog box where you enter your tenant ID and then select Submit to download the license file.]
 +
-You can find your BlueXP Account ID by selecting the *Account* drop-down from the top of BlueXP, and then clicking *Manage Account* next to your account. Your Account ID is in the Overview tab.
+You can find your BlueXP Account ID by selecting the *Account* drop-down from the top of BlueXP, and then selecting *Manage Account* next to your account. Your Account ID is in the Overview tab.
 
 == Add a license
 
@@ -47,11 +47,11 @@ After you purchase a license for a BlueXP data service, you need to add the lice
 
 .Steps
 
-. From the BlueXP menu, click *Governance > Digital wallet* and then select the *Data Services Licenses* tab.
+. From the BlueXP menu, select *Governance > Digital wallet* and then select the *Data Services Licenses* tab.
 
-. Click *Add License*.
+. Select *Add License*.
 
-. In the _Add License_ dialog, enter the license information and click *Add License*:
+. In the _Add License_ dialog, enter the license information and select *Add License*:
 +
 * If you have the serial number and know your NSS account, select the *Enter Serial Number* option and enter that information.
 +
@@ -73,17 +73,17 @@ image:screenshot_services_license_expire.png[A screenshot that shows an expiring
 
 .Steps
 
-. Click the chat icon in the lower-right of BlueXP, or contact support, to request an extension to your term or additional capacity to your license for the particular serial number.
+. Select the chat icon in the lower-right of BlueXP, or contact support, to request an extension to your term or additional capacity to your license for the particular serial number.
 +
 After you pay for the license and it is registered with the NetApp Support Site, BlueXP automatically updates the license in the digital wallet and the Data Services Licenses page will reflect the change in 5 to 10 minutes.
 
 . If BlueXP can't automatically update the license (for example, when using BlueXP in private mode), then you'll need to manually upload the license file.
 .. You can <<Obtain a license file,obtain the license file from the NetApp Support Site>>.
-.. On the _Data Services Licenses_ tab, click image:screenshot_horizontal_more_button.gif[More icon] for the service serial number you are updating, and click *Update License*.
+.. On the _Data Services Licenses_ tab, select image:screenshot_horizontal_more_button.gif[More icon] for the service serial number you are updating, and select *Update License*.
 +
 image:screenshot_services_license_update1.png[A screenshot of selecting the Update License button for a particular service.]
 
-.. In the _Update License_ page, upload the license file and click *Update License*.
+.. In the _Update License_ page, upload the license file and select *Update License*.
 
 .Result
 
