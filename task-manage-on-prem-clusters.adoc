@@ -36,9 +36,9 @@ The Software Contract and Hardware Contract expiration dates appear on the line 
 +
 If you are prompted to enter your NetApp Support Site (NSS) account credentials first, select *Add NSS Account*. After you add the account, the clusters associated with that NSS account appear.
 
-. If the contract is close to the expiration date, or has expired, you can click the chat icon in the lower-right of the BlueXP console to request an extension to the contract.
+. If the contract is close to the expiration date, or has expired, you can select the chat icon in the lower-right of the BlueXP console to request an extension to the contract.
 
-. To view more details, click image:button_down_caret.png[A down-caret icon] to expand the cluster information.
+. To view more details, select image:button_down_caret.png[A down-caret icon] to expand the cluster information.
 +
 image:screenshot_digital_wallet_license_info.png[A screenshot of expanding the cluster details so you can view the cluster license information.]
 
@@ -64,9 +64,9 @@ Your ONTAP clusters display with a status of whether they have been discovered i
 +
 If you are prompted to enter your NetApp Support Site (NSS) account credentials first, select *Add NSS Account*. After you add the account, the clusters associated with that NSS account appear.
 
-. Click *Discover* for the cluster that you want to manage through BlueXP.
+. Select *Discover* for the cluster that you want to manage through BlueXP.
 
-. On the _Discover ONTAP Cluster_ page, enter the password for the admin user account and click *Discover*.
+. On the _Discover ONTAP Cluster_ page, enter the password for the admin user account and select *Discover*.
 +
 image:screenshot_discover_ontap_wallet.png[A screenshot that shows an example of the ONTAP Cluster Details page: the cluster management IP address, user name and password.]
 +
