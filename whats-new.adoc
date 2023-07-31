@@ -30,7 +30,7 @@ Several improvements to the Cloud Volumes ONTAP usage reports are now available:
 * The volume type _file_ is now labeled _Primary (Read/Write)_.
 * The volume type _secondary_ is now labeled _Secondary (DP)_. 
 
-For more information about the usage reports, see https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html#download-usage-reports[Download usage reports^].
+For more information about the usage reports, refer to https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html#download-usage-reports[Download usage reports^]
 
 == 7 May 2023
 
