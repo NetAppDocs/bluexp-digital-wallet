@@ -30,7 +30,7 @@ Several improvements to the Cloud Volumes ONTAP usage reports are now available:
 * The volume type _file_ is now labeled _Primary (Read/Write)_.
 * The volume type _secondary_ is now labeled _Secondary (DP)_. 
 
-For more information about the usage reports, refer to https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html#download-usage-reports[Download usage reports^]
+For more information about the usage reports, refer to https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports[Download usage reports].
 
 == 7 May 2023
 
@@ -47,7 +47,7 @@ Now you can find out what you're being charged for when you're subscribed to cap
 * Storage VMs usage
 * Volumes usage
 
-For more information, see link:https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html[Manage capacity-based licenses].
+For more information about the usage reports, refer to https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports[Download usage reports].
 
 == 3 April 2023
 
