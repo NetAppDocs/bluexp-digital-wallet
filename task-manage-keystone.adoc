@@ -12,4 +12,5 @@ summary: Manage Keystone Subscription services from the Digital Wallet by enabli
 :linkattrs:
 :imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
+[.lead]
 include::https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/task-manage-keystone.adoc[lines=15..-1]
