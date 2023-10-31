@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: task-manage-keystone.html
 keywords: license, licensing, install, keystone, request capacity, link subscription, add keystone subscription, keystone subscription, digital wallet, keystone flex
-summary: Manage your Keystone Subscriptions from the BlueXP digital wallet by enabling subscriptions for use with Cloud Volumes ONTAP and by requesting changes to the committed capacity for your subscription's service levels. Requesting additional capacity for a service level provides more storage for on-premises ONTAP clusters or for Cloud Volumes ONTAP systems.
+summary: Manage your Keystone subscriptions from the BlueXP digital wallet by enabling subscriptions for use with Cloud Volumes ONTAP and by requesting changes to the committed capacity for your subscription's service levels. Requesting additional capacity for a service level provides more storage for on-premises ONTAP clusters or for Cloud Volumes ONTAP systems.
 ---
 
-= Manage Keystone Subscriptions
+= Manage Keystone subscriptions
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Manage your Keystone Subscriptions from the BlueXP digital wallet by en
 :imagesdir: ./media/
 
 [.lead]
-Manage your Keystone Subscriptions from the BlueXP digital wallet by enabling subscriptions for use with Cloud Volumes ONTAP and by requesting changes to the committed capacity for your subscription's service levels. Requesting additional capacity for a service level provides more storage for on-premises ONTAP clusters or for Cloud Volumes ONTAP systems.
+Manage your Keystone subscriptions from the BlueXP digital wallet by enabling subscriptions for use with Cloud Volumes ONTAP and by requesting changes to the committed capacity for your subscription's service levels. Requesting additional capacity for a service level provides more storage for on-premises ONTAP clusters or for Cloud Volumes ONTAP systems.
 
 //The contents of this page are reused in the bluexp-cloud-volumes-ontap doc site. As a result, any links from this page to other pages must use absolute URLs so that the links resolve from the bluexp-cloud-volumes-ontap doc site.
 
@@ -23,7 +23,7 @@ https://www.netapp.com/services/keystone/[Learn more about Keystone^]
 
 == Authorize your account
 
-Before you can use and manage Keystone Subscriptions in BlueXP, you need to contact NetApp to authorize your BlueXP user account with your Keystone Subscriptions.
+Before you can use and manage Keystone subscriptions in BlueXP, you need to contact NetApp to authorize your BlueXP user account with your Keystone subscriptions.
 
 .Steps
 
@@ -41,7 +41,7 @@ image:screenshot-keystone-overview.png[A screenshot that shows a list of Keyston
 
 == Link a subscription
 
-After NetApp authorizes your account, you can link Keystone Subscriptions for use with Cloud Volumes ONTAP. This action enables users to select the subscription as the charging method for new Cloud Volumes ONTAP systems.
+After NetApp authorizes your account, you can link Keystone subscriptions for use with Cloud Volumes ONTAP. This action enables users to select the subscription as the charging method for new Cloud Volumes ONTAP systems.
 
 .Steps
 
