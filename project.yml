@@ -11,7 +11,9 @@ sidebar:
     - title: BlueXP digital wallet docs
       url: /index.html
     - title: Release notes
-      url: /whats-new.html
+      entries:
+        - title: What's new
+          url: /whats-new.html
     - title: Get started
       entries:
         - title: Learn about the BlueXP digital wallet
@@ -28,7 +30,7 @@ sidebar:
           url: /task-manage-data-services-licenses.html
         - title: Manage PAYGO subscriptions and contracts
           url: /task-manage-subscriptions.html
-        - title: Manage Keystone Subscription services
+        - title: Manage Keystone subscriptions
           url: /task-manage-keystone.html
         - title: Manage licenses for on-prem ONTAP clusters
           url: /task-manage-on-prem-clusters.html

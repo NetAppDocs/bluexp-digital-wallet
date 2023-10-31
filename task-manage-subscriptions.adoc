@@ -13,7 +13,10 @@ summary: When you subscribe to BlueXP from a cloud provider's marketplace, you'r
 :imagesdir: ./media/
 
 [.lead]
-When you subscribe to BlueXP from a cloud provider's marketplace, you're redirected to the BlueXP website where you need to save your subscription and associate it with specific accounts. After you've subscribed, each subscription is available to manage from the BlueXP digital wallet. 
+When you subscribe to BlueXP from a cloud provider's marketplace, you're redirected to the BlueXP website where you need to save your subscription and associate it with specific accounts. After you've subscribed, each subscription is available to manage from the BlueXP digital wallet.
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html[Learn how to subscribe to BlueXP (standard mode)^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html[Learn how to subscribe to BlueXP (restricted mode)^]
 
 == View your subscriptions
 
