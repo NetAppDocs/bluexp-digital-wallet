@@ -20,7 +20,7 @@ The instructions on this page provide information that applies to each service. 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/task-licensing-cloud-backup.html[Set up licensing for BlueXP backup and recovery^]
 * https://docs.netapp.com/us-en/bluexp-classification/task-licensing-datasense.html[Set up licensing for BlueXP classification^]
 * https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html[Set up licensing for BlueXP tiering^]
-* https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html[Set up licensing for BlueXP disaster recovery]
+* https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html[Set up licensing for BlueXP disaster recovery^]
 
 == Obtain a license file
 
