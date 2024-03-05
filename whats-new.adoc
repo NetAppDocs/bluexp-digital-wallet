@@ -17,6 +17,14 @@ Learn what's new with the BlueXP digital wallet.
 //All links and images must use the absolute URL.
 
 //tag::whats-new[]
+== 5 March 2024
+
+=== BlueXP disaster recovery
+
+The BlueXP digital wallet now enables you to manage licenses for BlueXP disaster recovery. You can add licenses, update licenses, and view details about licensed capacity.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html[Learn how to manage licenses for BlueXP data services]
+
 == 30 July 2023
 
 === Usage reports enhancements

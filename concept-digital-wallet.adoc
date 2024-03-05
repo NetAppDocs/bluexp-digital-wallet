@@ -20,15 +20,16 @@ The BlueXP digital wallet enables you to manage and monitor BlueXP licenses purc
 * Manage capacity-based and node-based licenses for Cloud Volumes ONTAP
 * Add and manage licenses for BlueXP data services
 * Manage subscriptions for PAYGO and annual contracts associated with your BlueXP account and with Astra Control
-* Manage Keystone Subscription services for use with Cloud Volumes ONTAP and request changes to committed capacity
+* Manage Keystone Subscription services for use with Cloud Volumes ONTAP and on-premises ONTAP clusters, and request changes to committed capacity
 * View hardware and software contract status information for on-premises ONTAP clusters
 
 == Supported services
 
-The BlueXP digital wallet enables you to manage licenses for the following:
+The BlueXP digital wallet enables you to manage licenses for the following services:
 
-* Backup and recovery
-* Classification
-* Cloud Volumes ONTAP
-* On-prem ONTAP clusters
-* Tiering
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html[Backup and recovery^]
+* https://docs.netapp.com/us-en/bluexp-classification/index.html[Classification^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html[Cloud Volumes ONTAP^]
+* https://docs.netapp.com/us-en/bluexp-disaster-recovery/index.html[Disaster recovery^] (BYOL only)
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html[On-prem ONTAP clusters^]
+* https://docs.netapp.com/us-en/bluexp-tiering/index.html[Tiering^]
