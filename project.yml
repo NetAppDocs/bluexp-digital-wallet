@@ -45,25 +45,3 @@ sidebar:
 product-family:
   name: BlueXP
   repo: bluexp-family
-homepage:
-  tiles:
-    - title: Get started
-      links:
-        - title: Learn about the BlueXP digital wallet
-          url: concept-digital-wallet.html
-    - title: Manage your licenses
-      links:
-        - title: Manage capacity-based licenses for Cloud Volumes ONTAP
-          url: task-manage-capacity-licenses.html
-        - title: Manage licenses for BlueXP data services
-          url: task-manage-data-services-licenses.html
-        - title: Manage PAYGO subscriptions and contracts
-          url: task-manage-subscriptions.html
-    - title: Blogs & community
-      links:
-        - title: NetApp Community
-          url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-        - title: BlueXP blog
-          url: https://bluexp.netapp.com/blog
-        - title: Cloud webinars
-          url: https://bluexp.netapp.com/events
