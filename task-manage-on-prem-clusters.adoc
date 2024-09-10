@@ -20,7 +20,7 @@ The BlueXP digital wallet enables you to view contract details for each of your 
 The BlueXP digital wallet displays details about the on-premises ONTAP clusters that you discovered as a working environment or that are associated with a NetApp Support Site account that you added to BlueXP.
 
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html[Learn how to discover an on-premises ONTAP cluster^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[Learn how to manage NSS credentials associated with your BlueXP account^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[Learn how to manage NSS credentials associated with your BlueXP organization or account^]
 
 == View cluster information and contract details
 
