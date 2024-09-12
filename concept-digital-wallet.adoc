@@ -34,4 +34,4 @@ The BlueXP digital wallet enables you to manage licenses for the following servi
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html[On-prem ONTAP clusters^]
 * https://docs.netapp.com/us-en/bluexp-tiering/index.html[Tiering^]
 
-TIP: The BlueXP digital wallet also enables you to manage licenses for BlueXP classification. However, BlueXP classification is now available as a core capability within BlueXP at no additional charge. A license or subscription is no longer required.
+TIP: The BlueXP digital wallet also enables you to manage licenses for BlueXP classification. However, BlueXP classification is now available as a core capability within BlueXP at no additional charge. A license or subscription is no longer required. https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn more about BlueXP classification^]
