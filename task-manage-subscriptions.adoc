@@ -20,7 +20,7 @@ When you subscribe to BlueXP from a cloud provider's marketplace, you're redirec
 
 == View your subscriptions
 
-The BlueXP digital wallet provides details about each PAYGO subscription and annual contract associated with your BlueXP account and with Astra Control (Astra Control uses BlueXP's charging service).
+The BlueXP digital wallet provides details about each PAYGO subscription and annual contract associated with your BlueXP organization or account, and with Astra Control (Astra Control uses BlueXP's charging service).
 
 For Google Cloud, you can also identify marketplace subscriptions that are associated with a private offer, which enables you to verify that you've successfully accepted the offer.
 
@@ -76,4 +76,4 @@ For example, let's say that you have two accounts and each is billed through sep
 +
 image:screenshot-subscription-menu.png[A screenshot of the action menu for a subscription.]
 
-. Choose to rename the subscription or to manage the BlueXP accounts that are associated with the subscription.
+. Choose to rename the subscription or to manage the BlueXP organizations or accounts that are associated with the subscription.

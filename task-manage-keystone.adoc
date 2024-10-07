@@ -55,7 +55,7 @@ image:screenshot-keystone-link.png[A screenshot that shows the link option for a
 
 .Result
 
-The subscription is now linked to your BlueXP account and available to select when creating a Cloud Volumes ONTAP working environment.
+The subscription is now linked to your BlueXP organization or account and available to select when creating a Cloud Volumes ONTAP working environment.
 
 == Request more or less committed capacity
 
@@ -99,4 +99,4 @@ If you no longer want to use a Keystone Subscription with BlueXP, you can unlink
 
 .Result
 
-The subscription is unlinked from your BlueXP account and no longer available to select when creating a Cloud Volumes ONTAP working environment.
+The subscription is unlinked from your BlueXP organization or account and no longer available to select when creating a Cloud Volumes ONTAP working environment.
