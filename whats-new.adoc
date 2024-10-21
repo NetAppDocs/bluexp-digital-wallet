@@ -21,11 +21,11 @@ include::_whatsnew/2024-03-05.adoc[]
 
 == 30 July 2023
 
-include::_whatsnew/2024-07-30.adoc[]
+include::_whatsnew/2023-07-30.adoc[]
 
 == 7 May 2023
 
-include::_whatsnew/2024-05-07.adoc[]
+include::_whatsnew/2023-05-07.adoc[]
 
 == 3 April 2023
 
