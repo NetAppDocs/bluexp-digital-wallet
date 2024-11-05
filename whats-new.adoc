@@ -4,7 +4,6 @@ permalink: whats-new.html
 keywords: what's new, features, new, release notes, enhancements, fixes, digital wallet, bluexp digital wallet
 summary: Learn what's new with the BlueXP digital wallet.
 ---
-
 = What's new
 :hardbreaks:
 :nofooter:
@@ -16,46 +15,19 @@ summary: Learn what's new with the BlueXP digital wallet.
 Learn what's new with the BlueXP digital wallet.
 //All links and images must use the absolute URL.
 
-//tag::whats-new[]
+// tag::whats-new[]
 == 5 March 2024
 
-=== BlueXP disaster recovery
-
-The BlueXP digital wallet now enables you to manage licenses for BlueXP disaster recovery. You can add licenses, update licenses, and view details about licensed capacity.
-
-https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html[Learn how to manage licenses for BlueXP data services]
+include::_whatsnew/2024-03-05.adoc[]
 
 == 30 July 2023
 
-=== Usage reports enhancements
-
-Several improvements to the Cloud Volumes ONTAP usage reports are now available:
-
-* The TiB unit is now included in the name of columns.
-* A new _node(s)_ field for serial numbers is now included.
-* A new _Workload Type_ column is now included under the Storage VMs usage report.
-* Working environment names are now included in the Storage VMs and Volume usage reports.
-* The volume type _file_ is now labeled _Primary (Read/Write)_.
-* The volume type _secondary_ is now labeled _Secondary (DP)_. 
-
-For more information about the usage reports, refer to https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports[Download usage reports].
+include::_whatsnew/2023-07-30.adoc[]
 
 == 7 May 2023
 
-=== Google Cloud private offers
-
-The BlueXP digital wallet now identifies Google Cloud Marketplace subscriptions that are associated with a private offer and shows the end date and term of the subscription. This enhancement enables you to verify that you've successfully accepted the private offer and to validate its terms.
-
-=== Charging usage breakdown
-
-Now you can find out what you're being charged for when you're subscribed to capacity-based licenses. The following types of usage reports are available for download from the BlueXP digital wallet. The usage reports provide capacity details of your subscriptions and tell you how you're being charged for the resources in your Cloud Volumes ONTAP subscriptions. The downloadable reports can be easily shared with others.
-
-* Cloud Volumes ONTAP package usage
-* High-level usage 
-* Storage VMs usage
-* Volumes usage
-
-For more information about the usage reports, refer to https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports[Download usage reports].
+include::_whatsnew/2023-05-07.adoc[]
+// end::whats-new[]
 
 == 3 April 2023
 
@@ -72,7 +44,6 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html
 When viewing capacity-based licensing for Cloud Volumes ONTAP, the BlueXP digital wallet now shows the licensed capacity that you purchased with marketplace private offers.
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html[Learn how to view the consumed capacity in your account].
-//end::whats-new[]
 
 == 6 November 2022
 
