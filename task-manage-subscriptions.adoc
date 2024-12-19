@@ -28,11 +28,13 @@ For Google Cloud, you can also identify marketplace subscriptions that are assoc
 
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
 
-. Select *Subscriptions*.
+. Select *Marketplace Subscriptions*.
 +
-You'll only see the subscriptions that are associated with the account that you're currently viewing.
+You'll only see the subscriptions that are associated with the account that you're currently viewing. -tonia comment Should we say organization or subscriptions associated with the organization or project you have permission to view?
 
 . As you view the information about your subscriptions, you can interact with the details in the table as follows:
++
+* Use Advanced Search and Filtering to determine which subscriptions are shown in the table. You can search by a a specific name of a subscription and filter by a variety of subscription parameters such as type and configuration.
 +
 * Expand a row to view more details.
 +
@@ -70,10 +72,20 @@ For example, let's say that you have two accounts and each is billed through sep
 
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
 
-. Select *Subscriptions*.
+. Select *Marketplace Subscriptions*.
 
 . Select the action menu in the row that corresponds to the subscription that you want to manage.
 +
 image:screenshot-subscription-menu.png[A screenshot of the action menu for a subscription.]
 
 . Choose to rename the subscription or to manage the BlueXP organizations or accounts that are associated with the subscription.
+
+== Add a new subscription
+
+You can add a new subscription 
+
+== Configure a subscription
+You can configure a subscription to be associated with the "cloud account" associated with BlueXP and its connector. This allows actions in BlueXP to be charged against the appropriate subscription. If no marketplace subscription is configured for your BlueXP account, there will be no continuation of services should one of your license agreements expire.
+
+== Associate a subscription
+You can associate a subscription with one or more of your BlueXP organizations.

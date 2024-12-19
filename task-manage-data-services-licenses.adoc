@@ -89,7 +89,7 @@ image:screenshot_services_license_expire.png[A screenshot that shows an expiring
 
 .Steps
 
-. Select the chat icon in the lower-right of BlueXP, or contact support, to request an extension to your term or additional capacity to your license for the particular serial number.
+. Contact support to request an extension to your term or additional capacity to your license for the particular serial number.
 +
 After you pay for the license and it is registered with the NetApp Support Site, BlueXP automatically updates the license in the digital wallet and the Data Services Licenses page will reflect the change in 5 to 10 minutes.
 
@@ -100,7 +100,3 @@ After you pay for the license and it is registered with the NetApp Support Site,
 image:screenshot_services_license_update1.png[A screenshot of selecting the Update License button for a particular service.]
 
 .. In the _Update License_ page, upload the license file and select *Update License*.
-
-.Result
-
-BlueXP updates the license.

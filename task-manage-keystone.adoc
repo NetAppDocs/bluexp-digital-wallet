@@ -29,13 +29,13 @@ Before you can use and manage Keystone subscriptions in BlueXP, you need to cont
 
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
 
-. Select *Keystone*.
+. Select *Keystone Subscriptions*.
 
 . If you see the *Welcome to NetApp Keystone* page, send an email to the address listed on the page.
 +
 A NetApp representative will process your request by authorizing your user account to access the subscriptions.
 
-. Come back to the *Keystone Subscription* to view your subscriptions.
+. Come back to the *Keystone Subscriptions* tab to view your subscriptions.
 +
 image:screenshot-keystone-overview.png[A screenshot that shows a list of Keystone Subscriptions.]
 
@@ -47,7 +47,7 @@ After NetApp authorizes your account, you can link Keystone subscriptions for us
 
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
 
-. Select *Keystone*.
+. Select *Keystone Subscriptions*.
 
 . For the subscription that you want to link, click image:icon-action.png["An icon that is three side-by-side dots"] and select *Link*.
 +
@@ -65,7 +65,7 @@ If you want to change the committed capacity for your subscription's service lev
 
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
 
-. Select *Keystone*.
+. Select *Keystone Subscriptions*.
 
 . For the subscription that you want adjust the capacity, click image:icon-action.png["An icon that is three side-by-side dots"] and select *View detail and edit*.
 
@@ -87,7 +87,7 @@ https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.h
 
 == Unlink a subscription
 
-If you no longer want to use a Keystone Subscription with BlueXP, you can unlink the subscription. Note that you can only unlink a subscription that isn't attached to an existing Cloud Volumes ONTAP subscription.
+If you no longer want to use a Keystone subscription with BlueXP, you can unlink the subscription. Note that you can only unlink a subscription that isn't attached to an existing Cloud Volumes ONTAP subscription.
 
 .Steps
 
