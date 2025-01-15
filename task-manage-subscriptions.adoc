@@ -74,7 +74,7 @@ You can rename a subscription to better identify how it is used in your organiza
 
 . Select the action menu in the row that corresponds to the subscription that you want to manage and choose *Rename*.
 + need new screenshot
-image:screenshot-rename-subscription.png[A screenshot of the Rename option for a subscription.]
+image:screenshot_rename_subscription.png[A screenshot of the Rename option for a subscription.]
 
 
 == Configure a subscription with a provider credential
