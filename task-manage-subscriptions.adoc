@@ -31,11 +31,7 @@ For Google Cloud, you can also identify marketplace subscriptions that are assoc
 . Select *Marketplace Subscriptions*.
 +
 You'll only see the subscriptions that are associated with the organization that you are that you're currently viewing. 
-*Draft questions* 
-****
-We use the word "account" throughout these topics and I think it is too vague. Are we talking about your user account, or a connector cloud account (credential)?
-Should we say organization or subscriptions associated with the organization or project you have permission to view? When we say "account" here are we referring to the Connector?
-****
+
 . As you view the information about your subscriptions, you can interact with the details in the table as follows:
 +
 * Use Advanced Search and Filtering to determine which subscriptions are shown in the table. You can search by a a specific name of a subscription and filter by a variety of subscription parameters such as type and configuration.
@@ -68,11 +64,8 @@ Contracts::
 
 == Rename a subscription
 
-You can rename your subscriptions to better identify how they are used in your organization.
+You can rename a subscription to better identify how it is used in your organization.
 
-For example, if you have two BlueXP organizations and each is billed through separate subscriptions. You might disassociate a subscription from one of the organizations so the users in that organization don't accidentally choose the wrong subscription when creating a Cloud Volumes ONTAP working environment.
-
-BlueXP supports Identity and Access Management (IAM) standard mode which uses organizations to manage users and resources. If you're using BlueXP in restricted mode or private mode, then you use a BlueXP _account_ to manage users and resources.
 
 .Steps
 
@@ -80,26 +73,42 @@ BlueXP supports Identity and Access Management (IAM) standard mode which uses or
 
 . Select *Marketplace Subscriptions*.
 
-. Select the action menu in the row that corresponds to the subscription that you want to manage and choose Rename.
+. Select the action menu in the row that corresponds to the subscription that you want to manage and choose *Rename*.
 + need new screenshot
-image:screenshot-subscription-menu.png[A screenshot of the action menu for a subscription.]
-
+image:screenshot-rename-subscription.png[A screenshot of the Rename option for a subscription.]
 
 
 == Configure a subscription with a provider credential
 
-Subscriptions are typically configured with a provider credential that you created when you subscribed. In some cases, you may need to reconfigure a subscription to use a different credential if you want to change the way it is charged. You can also do this from the Credentials page. 
-In order to configure a subscription to a particular credential, you must select the connector that is associated with that credential. 
+Subscriptions are typically configured with the provider credential that you created when you subscribed. In some cases, you may need to reconfigure a subscription to use a different credential if you want to change the way it is charged. 
+
+In order to configure a subscription to a particular credential, you must select the connector that is associated with that credential. The format of the credential depends on the marketplace you are using. For example, Azure marketplace subscriptions are associated with the name of the Azure subscription, while AWS marketplace subscriptions use the AWS account ID. You can see a list of available credentials from the Credentials page. 
+
+.Steps
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. Select *Marketplace Subscriptions*.
+
+. Select the action menu in the row that corresponds to the subscription that you want to configure and choose *Configure*.
+
++ In order to configure a subscription to a particular credential, you must select the connector that is associated with that credential. The Configure option is grayed out if you haven't selected the connector associated with the subscription.
+
+. In the Configure dialog box, choose a credential to which to configure the subscription. 
+
+.
+
 *Draft questions* 
 ****
 Do we restrict access to credentials?  Should we just use the term "Organization credential" in the UI here to match how we are using it on the Credentials page?
 
 We should probably add these instructions here:
 Find your BlueXP account ID:
+****
 
 .Steps
 
-. In the upper right of the BlueXP console, select The settings icon which displays in the top right of the BlueXP web console. > Identity & Access Management.
+. In the upper right of the BlueXP console, select the settings icon which displays in the top right of the BlueXP web console. > Identity & Access Management.
 
 . On the Organization credentials tab, look for your account ID and copy it. 
  The account ID is named differently depending on the hyperscaler where you subscribed to BlueXP (or created your connector).
@@ -107,12 +116,28 @@ Find your BlueXP account ID:
 
 == Associate a subscription with a BlueXP organization
 
-You can associate a subscription with one or more of your BlueXP organizations. This ensures that the members of that organization can use that subscription for charging. You must be an organization admin in order to associate a subscription.
+Associating a subscription with an organization ensures members of that that organization can use that subscription for charging. 
 
-For example, if you have two BlueXP organizations and each is billed through separate subscriptions. You might disassociate a subscription from one of the organizations so the users in that organization don't accidentally choose the wrong subscription when creating a Cloud Volumes ONTAP working environment.
-BlueXP supports Identity and Access Management (IAM) standard mode which uses organizations to manage users and resources. If you're using BlueXP in restricted mode or private mode, then you use a BlueXP _account_ to manage users and resources.
+You can limit use of a subscription to a specific organization or share the subscription between multiple organizations.  You can also replace an existing organization's subscription if the need arises. 
+
+You must have the organization admin role in order to associate a subscription with an organization.
+
+
+NOTE: BlueXP supports Identity and Access Management (IAM) standard mode which uses organizations to manage users and resources. If you're using BlueXP in restricted mode or private mode, then you use a BlueXP _account_ to manage users and resources, including subscriptions. 
 *Draft questions* 
 ****
-What happens when you have more than one organization? Is this step mandatory? Will the subscription be auto-assigned if you have one organization? Is there a default org that will be used?  Also this term is used on the Credentials page. We should change the credentials term to be Configure to match what it actually does and to align with how we are using Configure in the digital wallet.
+What happens when you have more than one organization? Is this step mandatory? Will the subscription be auto-assigned if you have one organization? When there are multiple, ss there a default org that will be used?  
 ****
+.Steps
 
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. Select *Marketplace Subscriptions*.
+
+. Select the action menu in the row that corresponds to the subscription that you want to associate and choose *Associate*.
+
+. In the Associate the subscription dialog box, choose an organization(s) to which to associate this subscription. 
+
+. Optionally, use the slider to indicate that you are replacing an existing subscription for the selected organization.
+
+. Select *Associate*.
