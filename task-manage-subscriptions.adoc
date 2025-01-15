@@ -66,7 +66,6 @@ Contracts::
 
 You can rename a subscription to better identify how it is used in your organization.
 
-
 .Steps
 
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
@@ -94,24 +93,9 @@ In order to configure a subscription to a particular credential, you must select
 
 + In order to configure a subscription to a particular credential, you must select the connector that is associated with that credential. The Configure option is grayed out if you haven't selected the connector associated with the subscription.
 
-. In the Configure dialog box, choose a credential to which to configure the subscription. 
+. In the _Configure_ dialog, choose a credential to which to configure the subscription. 
 
 .
-
-*Draft questions* 
-****
-Do we restrict access to credentials?  Should we just use the term "Organization credential" in the UI here to match how we are using it on the Credentials page?
-
-We should probably add these instructions here:
-Find your BlueXP account ID:
-****
-
-.Steps
-
-. In the upper right of the BlueXP console, select the settings icon which displays in the top right of the BlueXP web console. > Identity & Access Management.
-
-. On the Organization credentials tab, look for your account ID and copy it. 
- The account ID is named differently depending on the hyperscaler where you subscribed to BlueXP (or created your connector).
 
 
 == Associate a subscription with a BlueXP organization
@@ -124,10 +108,7 @@ You must have the organization admin role in order to associate a subscription w
 
 
 NOTE: BlueXP supports Identity and Access Management (IAM) standard mode which uses organizations to manage users and resources. If you're using BlueXP in restricted mode or private mode, then you use a BlueXP _account_ to manage users and resources, including subscriptions. 
-*Draft questions* 
-****
-What happens when you have more than one organization? Is this step mandatory? Will the subscription be auto-assigned if you have one organization? When there are multiple, ss there a default org that will be used?  
-****
+
 .Steps
 
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
