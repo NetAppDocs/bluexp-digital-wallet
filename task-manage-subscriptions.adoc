@@ -97,8 +97,6 @@ In order to configure a subscription to a particular credential, you must select
 
 . In the _Configure_ dialog, choose a credential to which to configure the subscription. 
 
-.
-
 
 == Associate a subscription with a BlueXP organization
 
