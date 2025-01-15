@@ -73,7 +73,7 @@ You can rename a subscription to better identify how it is used in your organiza
 . Select *Marketplace Subscriptions*.
 
 . Select the action menu in the row that corresponds to the subscription that you want to manage and choose *Rename*.
-+ need new screenshot
++ 
 image:screenshot_rename_subscription.png[A screenshot of the Rename option for a subscription.]
 
 
@@ -91,7 +91,9 @@ In order to configure a subscription to a particular credential, you must select
 
 . Select the action menu in the row that corresponds to the subscription that you want to configure and choose *Configure*.
 
-+ In order to configure a subscription to a particular credential, you must select the connector that is associated with that credential. The Configure option is grayed out if you haven't selected the connector associated with the subscription.
++ 
+
+In order to configure a subscription to a particular credential, you must select the connector that is associated with that credential. The Configure option is grayed out if you haven't selected the connector associated with the subscription.
 
 . In the _Configure_ dialog, choose a credential to which to configure the subscription. 
 
