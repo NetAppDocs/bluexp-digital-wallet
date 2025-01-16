@@ -91,7 +91,7 @@ After you pay for the license and it is registered with the NetApp Support Site,
 
 . If BlueXP can't automatically update the license (for example, when using BlueXP in private mode), then you'll need to manually upload the license file.
 .. You can <<Obtain a license file,obtain the license file from the NetApp Support Site>>.
-.. On the _Data Services Licenses_ tab, select image:screenshot_horizontal_more_button.gif[More icon] for the service serial number you are updating, and select *Update License*.
+.. On the _Data services licenses_ tab, select image:screenshot_horizontal_more_button.gif[More icon] for the service serial number you are updating, and select *Update License*.
 +
 image:screenshot_services_license_update1.png[A screenshot of selecting the Update License button for a particular service.]
 
