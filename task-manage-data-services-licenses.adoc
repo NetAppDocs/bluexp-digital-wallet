@@ -65,15 +65,15 @@ After you purchase a license for a BlueXP data service, you need to add the lice
 
 . From the BlueXP menu, select *Governance > Digital wallet* and then select the *Data services licenses* tab.
 
-. Select *Add License*.
+. Select *Add license*.
 
-. In the _Add License_ dialog, enter the license information and select *Add License*:
+. In the _Add license_ dialog, enter the license information and select *Add license*:
 +
-* If you have the serial number and know your NSS account, select the *Enter Serial Number* option and enter that information.
+* If you have the serial number and know your NSS account, select the *Enter serial number* option and enter that information.
 +
 If your NetApp Support Site account isn't available from the drop-down list, https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[add the NSS account to BlueXP^]
 
-* If you have the license file (required when using BlueXP in private mode), select the *Upload License File* option and follow the prompts to attach the file.
+* If you have the license file (required when using BlueXP in private mode), select the *Upload license file* option and follow the prompts to attach the file.
 
 
 
@@ -95,4 +95,4 @@ After you pay for the license and it is registered with the NetApp Support Site,
 +
 image:screenshot_services_license_update1.png[A screenshot of selecting the Update License button for a particular service.]
 
-.. In the _Update License_ page, upload the license file and select *Update License*.
+. In the _Update License_ page, upload the license file and select *Update License*.
