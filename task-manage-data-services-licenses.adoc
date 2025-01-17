@@ -26,7 +26,7 @@ TIP: The BlueXP digital wallet also enables you to manage licenses for BlueXP cl
 
 == Obtain a license file
 
-include::_include/task-obtain-license.adoc[tag=obtain-license]
+include::_include/task-obtain-license.adoc
 
 
 == Add a license
