@@ -1,0 +1,17 @@
+
+
+After you purchase a license for a BlueXP data service, including Cloud Volumes ONTAP, you need to add the license to BlueXP.
+
+.Steps
+
+. From the BlueXP menu, select *Governance > Digital wallet* and then select the *Data services licenses* tab.
+
+. Select *Add license*.
+
+. In the _Add license_ dialog, enter the license information and select *Add license*:
++
+* If you have the serial number and know your NSS account, select the *Enter serial number* option and enter that information.
++
+If your NetApp Support Site account isn't available from the drop-down list, https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[add the NSS account to BlueXP^]
+
+* If you have the license file (required when using BlueXP in private mode), select the *Upload license file* option and follow the prompts to attach the file.
