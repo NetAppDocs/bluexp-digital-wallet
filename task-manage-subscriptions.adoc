@@ -79,9 +79,11 @@ image:screenshot_rename_subscription.png[A screenshot of the Rename option for a
 
 == Configure a subscription with a provider credential
 
-Subscriptions are typically configured with the provider credential that you created when you subscribed. In some cases, you may need to reconfigure a subscription to use a different credential if you want to change the way it is charged. 
+Subscriptions are typically configured with the provider credential that you created when you subscribed. In some cases, you may need to reconfigure a subscription to use a different credential if you want to change the way it is charged. The credential you associate with a subscription must be a credential that is also associated with a connector.
 
-In order to configure a subscription to a particular credential, you must select the connector that is associated with that credential. The format of the credential depends on the marketplace you are using. For example, Azure marketplace subscriptions are associated with the name of the Azure subscription, while AWS marketplace subscriptions use the AWS account ID. You can see a list of available credentials from the Credentials page. 
+The format of the credential depends on the marketplace you are using. For example, Azure marketplace subscriptions are associated with the name of the Azure subscription, while AWS marketplace subscriptions use the AWS account ID. You can see a list of available credentials from the Credentials page. 
+
+The Configure option is grayed out if you have unsubscribed to a subscription.
 
 .Steps
 
@@ -91,11 +93,7 @@ In order to configure a subscription to a particular credential, you must select
 
 . Select the action menu in the row that corresponds to the subscription that you want to configure and choose *Configure*.
 
-+ 
-
-In order to configure a subscription to a particular credential, you must select the connector that is associated with that credential. The Configure option is grayed out if you haven't selected the connector associated with the subscription.
-
-. In the _Configure_ dialog, choose a credential to which to configure the subscription. 
+. In the _Configure_ dialog, choose a credential to which to configure the subscription. You can only choose from credentials that are associated with the currently selected connector. If you don't see the credential that you want to use, try switching to a different connector view. <Tonia: is this true?>
 
 
 == Associate a subscription with a BlueXP organization
@@ -107,7 +105,7 @@ You can limit use of a subscription to a specific organization or share the subs
 You must have the organization admin role in order to associate a subscription with an organization.
 
 
-NOTE: BlueXP supports Identity and Access Management (IAM) standard mode which uses organizations to manage users and resources. If you're using BlueXP in restricted mode or private mode, then you use a BlueXP _account_ to manage users and resources, including subscriptions. 
+NOTE: BlueXP supports Identity and Access Management (IAM) in standard mode which uses organizations to manage users and resources. If you're using BlueXP in restricted mode or private mode, then you use a BlueXP _account_ to manage users and resources, including subscriptions. 
 
 .Steps
 
@@ -117,8 +115,22 @@ NOTE: BlueXP supports Identity and Access Management (IAM) standard mode which u
 
 . Select the action menu in the row that corresponds to the subscription that you want to associate and choose *Associate*.
 
-. In the Associate the subscription dialog box, choose an organization(s) to which to associate this subscription. 
+. In the *Associate the subscription* dialog, choose an organization(s) to which to associate this subscription. 
 
 . Optionally, use the slider to indicate that you are replacing an existing subscription for the selected organization.
 
 . Select *Associate*.
+
+== Viewing credentials associated with a subscription
+
+You can view the credentials for a specific subscription from the *Marketplace Subscriptions* page in the digital wallet. This allows you to verify how the subscription is being billed. Because credentials are also tied to the connector you are using, you must select the connector associated with the subscription you want to see. <TONIA: need a good explanation here of the relationship between credentials used for subscriptions and credentials used for connectors>
+
+NOTE: Use the Connector drop-down in the top navigation bar to switch connectors if you need.
+
+.Steps
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. Select *Marketplace Subscriptions*.
+
+. On the row that contains the subscription whose credentials you want to view, select View. If there are multiple credentials associated with a subscription, no credentials may show and you are directed to select a different connector.

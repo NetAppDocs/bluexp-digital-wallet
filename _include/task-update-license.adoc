@@ -1,8 +1,10 @@
 
 
-If your licensed term is nearing the expiration date, or if your licensed capacity is reaching the limit, you'll be notified in the BlueXP digital wallet. You can update your license before it expires so that there is no interruption in your ability to use the BlueXP data service.
+If your licensed term is nearing the expiration date, or if your licensed capacity is reaching the limit, you'll be notified in the BlueXP digital wallet. You can update your license before it expires so that there is no interruption in your ability to use the BlueXP data service or Cloud Volumes ONTAP.
 
 image:screenshot_dataservices_expire.png[A screenshot that shows an expiring license in the Digital Wallet page.]
+
+NOTE: For more information on how to obtain a license file, refer to https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#obtain-a-system-license-file[Obtain a system license file^]. 
 
 .Steps
 
@@ -11,8 +13,7 @@ image:screenshot_dataservices_expire.png[A screenshot that shows an expiring lic
 After you pay for the license and it is registered with the NetApp Support Site, BlueXP automatically updates the license in the digital wallet and the Data services licenses page will reflect the change in 5 to 10 minutes.
 
 . If BlueXP can't automatically update the license (for example, when using BlueXP in private mode), then you'll need to manually upload the license file.
-.. You can <<Obtain a license file,obtain the license file from the NetApp Support Site>>.
-.. On the _Data services licenses_ tab, select image:screenshot_horizontal_more_button.gif[More icon] for the service serial number you are updating, and select *Update License*.
+.. On the _Data services licenses_ tab, select image:screenshot_horizontal_more_button.gif[More icon] for the  serial number you are updating, and select *Update License*.
 +
 image:screenshot_services_license_update1.png[A screenshot of selecting the Update License button for a particular service.]
 
