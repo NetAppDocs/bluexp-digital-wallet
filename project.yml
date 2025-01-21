@@ -25,6 +25,8 @@ sidebar:
           entries:
             - title: Capacity-based licenses
               url: /task-manage-capacity-licenses.html
+            - title: Node-based licenses
+              url: /task-manage-node-based-licenses.html
         - title: Manage licenses for BlueXP data services and Cloud Volumes ONTAP
           url: /task-manage-data-services-licenses.html
         - title: Manage PAYGO subscriptions and contracts
