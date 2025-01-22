@@ -10,7 +10,7 @@ summary: Manage your capacity-based licenses from the Digital Wallet to ensure t
 :nofooter:
 :icons: font
 :linkattrs:
-:imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
+:imagesdir: ./media/
 
 [.lead]
 Manage your capacity-based licenses for BlueXP Cloud Volumes ONTAP from digital wallet to ensure that your NetApp account has enough capacity for your Cloud Volumes ONTAP systems.
