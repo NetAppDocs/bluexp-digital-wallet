@@ -44,7 +44,7 @@ The BlueXP digital wallet shows you the total consumed capacity in your account 
 +
 image:screenshot_cvo_overview_digital_wallet.png[a screenshot displaying the capacity summary for your Cloud Volumes ONTAP licenses and subscriptions.]
 +
-* _Data services_ is the total provisioned capacity of all Cloud Volumes ONTAP systems in your NetApp account. The charging is based on each volume's provisioned size, regardless of local, used, stored, or effective space within the volume.
+* _Data services_ is the total provisioned capacity of all Cloud Volumes ONTAP systems in your NetApp account. The charging is based on each volume's provisioned size, regardless of local, used, stored, or effective space within the volume. <TONIA: or is this only BYOL licenses?>
 +
 * _Annual contract_ is the total licensed capacity (bring your own license (BYOL) or Marketplace Contract) that you purchased from NetApp.
 +
@@ -58,7 +58,7 @@ image:screenshot_cvo_overview_digital_wallet.png[a screenshot displaying the cap
 To better understand the capacities that display for the Essentials package, you should be familiar with how charging works. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#notes-about-charging[Learn about charging for the Essentials package].
 
 +
-* The *Subscriptions* tab shows you _PAYGO_ shows you the consumed capacity by license consumption model.
+* The *Subscriptions* tab shows you the consumed capacity by license consumption model and includes both PAYGO and annual contract licenses.
 +
 Here's an example of a Cloud Volumes ONTAP packages summary in BlueXP digital wallet:
 +
