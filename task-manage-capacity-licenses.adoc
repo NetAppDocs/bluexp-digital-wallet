@@ -40,33 +40,29 @@ The BlueXP digital wallet shows you the total consumed capacity in your account 
 
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
 
-. On the *Overview* tab, select *View* from the Cloud Volumes ONTAP tile to view the packages summary, which shows you consumed capacity, total precommitted capacity, and total pay-as-you-go (PAYGO) capacity.
+. On the *Overview* tab, the Cloud Volumes ONTAP tile displays the current capacity used for your account. 
 +
-* _Total consumed capacity_ is the total provisioned capacity of all Cloud Volumes ONTAP systems in your NetApp account. The charging is based on each volume's provisioned size, regardless of local, used, stored, or effective space within the volume.
+image:screenshot_cvo_overview_digital_wallet.png[a screenshot displaying the capacity summary for your Cloud Volumes ONTAP licenses and subscriptions.]
 +
-* _Total precommitted capacity_ is the total licensed capacity (bring your own license (BYOL) or Marketplace Contract) that you purchased from NetApp.
+* _Data services_ is the total provisioned capacity of all Cloud Volumes ONTAP systems in your NetApp account. The charging is based on each volume's provisioned size, regardless of local, used, stored, or effective space within the volume.
 +
-* _Total PAYGO_ is the total provisioned capacity using cloud marketplace subscriptions. Charging via PAYGO is used only if the consumed capacity is higher than the licensed capacity or if there is no BYOL license available in the BlueXP digital wallet.
+* _Annual contract_ is the total licensed capacity (bring your own license (BYOL) or Marketplace Contract) that you purchased from NetApp.
++
+* _PAYGO_ is the total provisioned capacity using cloud marketplace subscriptions. Charging via PAYGO is used only if the consumed capacity is higher than the licensed capacity or if there is no BYOL license available in the BlueXP digital wallet.
++
+
+. Select *View* to see the consumed capacity for each of your licensing packages.
++
+* The *Licenses* tab shows you each package license that you have purchased <TONIA: what else?>
++
+To better understand the capacities that display for the Essentials package, you should be familiar with how charging works. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#notes-about-charging[Learn about charging for the Essentials package].
+
++
+* The *Subscriptions* tab shows you _PAYGO_ shows you the consumed capacity by license consumption model.
 +
 Here's an example of a Cloud Volumes ONTAP packages summary in BlueXP digital wallet:
 +
 image:screenshot_capacity-based-licenses.png[A screenshot that shows a Cloud Volumes ONTAP packages summary including total consumed capacity, total precommitted capacity (BYOL and Marketplace Contracts), and total PAYGO, or provisioned, capacity in BlueXP digital wallet.]
-
-. Under the summary, view the consumed capacity for each of your licensing packages.
-+
-* _Consumed capacity_ shows you the capacity of the volumes for that package. For more details about a specific package, hover your mouse over the tooltip.
-+
-To better understand the capacities that display for the Essentials package, you should be familiar with how charging works. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#notes-about-charging[Learn about charging for the Essentials package].
-+
-* _Precommitted capacity_ is the licensed capacity (BYOL or Marketplace Contract) that you purchased from NetApp.
-** _BYOL_ shows you the licensed capacity that you purchased from NetApp for this package type.
-** _Marketplace Contracts_ shows the licensed capacity that you purchased with a marketplace contract for this package type.
-+
-* _PAYGO_ shows you the consumed capacity by license consumption model.
-+
-Here's an example for an account that has several licensing packages:
-+
-image:screenshot-digital-wallet-packages.png[A screenshot that shows consumed capacity, precommitted capacity, and PAYGO, or provisioned, capacity for the essentials and professional packages.]
 
 === Download usage reports
 
