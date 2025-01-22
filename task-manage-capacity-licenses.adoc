@@ -62,7 +62,7 @@ To better understand the capacities that display for the Essentials package, you
 +
 Here's an example of a Cloud Volumes ONTAP packages summary in BlueXP digital wallet:
 +
-image:screenshot_capacity-based-licenses.png[A screenshot that shows a Cloud Volumes ONTAP packages summary including total consumed capacity, total precommitted capacity (BYOL and Marketplace Contracts), and total PAYGO, or provisioned, capacity in BlueXP digital wallet.]
+image:screenshot_cvo_subscription_tab.png[A screenshot that shows a Cloud Volumes ONTAP packages summary including total consumed capacity, total precommitted capacity (BYOL and Marketplace Contracts), and total PAYGO, or provisioned, capacity in BlueXP digital wallet.]
 
 === Download usage reports
 
