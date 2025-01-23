@@ -5,7 +5,7 @@ keywords: license, licensing, capacity license, capacity based license, add lice
 summary: Manage your capacity-based licenses from the Digital Wallet to ensure that your NetApp account has enough capacity for your Cloud Volumes ONTAP systems.
 ---
 
-= Manage Cloud Volume ONTAP licenses
+= Manage capacity-based Cloud Volume ONTAP licenses
 :hardbreaks:
 :nofooter:
 :icons: font
