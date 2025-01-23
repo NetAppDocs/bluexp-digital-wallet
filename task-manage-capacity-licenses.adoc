@@ -17,7 +17,6 @@ Manage your capacity-based licenses for BlueXP Cloud Volumes ONTAP from digital 
 
 //The contents of this page are reused in the bluexp-cloud-volumes-ontap site. As a result, any links from this page to other pages must use absolute URLs so that the links resolve from the bluexp-cloud-volumes-ontap doc site.
 
-
 The _BlueXP digital wallet_ enables you to manage your licenses for Cloud Volumes ONTAP. You can add new licenses and update existing licenses, as well as run usage reports. Cloud Volumes for ONTAP uses a capacity-based model where _Capacity-based licenses_ enable you to pay for Cloud Volumes ONTAP per TiB of capacity.
 
 NOTE: While the actual usage and metering for the products and services managed in BlueXP are always calculated in GiB and TiB, the terms GB/GiB and TB/TiB are used interchangeably. This is reflected in the Cloud Marketplace listings, price quotes, listing descriptions, and in other supporting documentation
@@ -44,7 +43,7 @@ The BlueXP digital wallet shows you the total consumed capacity in your account 
 +
 image:screenshot_cvo_overview_digital_wallet.png[a screenshot displaying the capacity summary for your Cloud Volumes ONTAP licenses and subscriptions.]
 +
-* _Data services_ is the total provisioned capacity of all Cloud Volumes ONTAP systems in your NetApp account. The charging is based on each volume's provisioned size, regardless of local, used, stored, or effective space within the volume. <TONIA: or is this only BYOL licenses?>
+* _Data services_ is the total provisioned capacity of all Cloud Volumes ONTAP systems in your NetApp account. The charging is based on each volume's provisioned size, regardless of local, used, stored, or effective space within the volume.
 +
 * _Annual contract_ is the total licensed capacity (bring your own license (BYOL) or Marketplace Contract) that you purchased from NetApp.
 +
@@ -53,12 +52,25 @@ image:screenshot_cvo_overview_digital_wallet.png[a screenshot displaying the cap
 
 . Select *View* to see the consumed capacity for each of your licensing packages.
 +
-* The *Licenses* tab shows you each package license that you have purchased <TONIA: what else?>
+. Select the *Licenses* tab shows you each package license that you have purchased <TONIA: what else?>
 +
 To better understand the capacities that display for the Essentials package, you should be familiar with how charging works. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#notes-about-charging[Learn about charging for the Essentials package].
 
 +
-* The *Subscriptions* tab shows you the consumed capacity by license consumption model and includes both PAYGO and annual contract licenses.
+. Select he *Subscriptions* tab to see the consumed capacity by license consumption model and includes both PAYGO and annual contract licenses. 
+You'll only see the subscriptions that are associated with the organization that you are that you're currently viewing. 
+
+. As you view the information about your subscriptions, you can interact with the details in the table as follows:
++
+* Use Advanced Search and Filtering to determine which subscriptions are shown in the table. You can search by a a specific name of a subscription and filter by a variety of subscription parameters such as type and configuration.
++
+* Expand a row to view more details.
++
+image:screenshot-subscriptions-expand.png[A screenshot of the Subscriptions tab in the digital wallet where you can select the arrow at the end of a row to expand it.]
+
+* Select image:icon-column-selector.png[the plus icon at the end of the table header] to choose which columns appear in the table. 
++
+Note that the Term and Auto Renew columns don't appear by default. The Auto Renew column displays renewal information for Azure contracts only.
 +
 Here's an example of a Cloud Volumes ONTAP packages summary in BlueXP digital wallet:
 +
@@ -135,10 +147,6 @@ include::_include/task-add-license.adoc[]
 
 == Update a capacity-based license
 
-If you purchased additional capacity or extended the term of your license, BlueXP automatically updates the license in the digital wallet. There's nothing that you need to do.
-
-However, if you deployed BlueXP in a location that doesn't have internet access, then you'll need to manually update the license file (or _files_ if you have an HA pair) in BlueXP.
-
 include::_include/task-update-license.adoc[]
 
 
@@ -153,6 +161,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[
 BlueXP always attempts to charge against a license first. If a license isn't available, it charges against a marketplace subscription. No "conversion" is required for BYOL to marketplace subscription or vice versa.
 
 * If you have a private offer or contract from your cloud provider's marketplace, changing to a charging method that's not included in your contract will result in charging against BYOL (if you purchased a license from NetApp) or PAYGO.
+<TONIA: these steps need to changed. Is this done through updating a license? If it still happens, which tab does it happen on?>
 
 .Steps
 
@@ -176,7 +185,7 @@ You might also notice that the BlueXP digital wallet refreshes the consumed capa
 
 == Remove a capacity-based license
 
-If a capacity-based license expired and is no longer in use, then you can remove it. 
+If a capacity-based license is expired and is no longer in use, then you can remove it.
 
 To learn about what happens to your Cloud Volumes ONTAP data on expiration or removal of your license, refer to https://kb.netapp.com/Cloud/Cloud_Volumes_ONTAP/FAQs_on_Cloud_Volumes_ONTAP_license_expiry[this knowledge base (KB) article^].
 

@@ -1,8 +1,8 @@
 
 
-After you purchase a license for a BlueXP data service, including Cloud Volumes ONTAP, you need to add the license to BlueXP. You need to provide BlueXP the serial number of the license or the license file. 
+In order to add a license to BlueXP, you need to provide BlueXP the serial number of the license or the license file(s). 
 
-* If you want to enter the serial number, you first need to https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[add your NetApp Support Site account to BlueXP^]. This is the NetApp Support Site account that's authorized to access the serial number.
+NOTE: If you want to enter the serial number, you first need to https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[add your NetApp Support Site account to BlueXP^]. This is the NetApp Support Site account that's authorized to access the serial number.
 
 .Steps
 
