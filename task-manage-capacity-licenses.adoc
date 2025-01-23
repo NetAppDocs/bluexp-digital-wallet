@@ -76,7 +76,7 @@ image:screenshot-digital-wallet-usage-report.png[Screenshot shows the digital wa
 
 The following reports are available for download. Capacity values shown are in TiB. 
 
-* *High-level usage*: This report shows you exactly what's in the “Cloud Volumes ONTAP Packages Summary” card in the digital wallet. It includes the following information: 
+* *High-level usage*: This report includes the following information: 
 +
 ** Total consumed capacity 
 ** Total precommitted capacity 
@@ -84,7 +84,7 @@ The following reports are available for download. Capacity values shown are in T
 ** Total Marketplace contracts capacity
 ** Total PAYGO capacity
 
-* *Cloud Volumes ONTAP package usage*: This report shows you exactly what's on the package cards in the digital wallet. It includes the following information for each package except the Optimized I/O package: 
+* *Cloud Volumes ONTAP package usage*: This report includes the following information for each package except the Optimized I/O package: 
 +
 ** Total consumed capacity
 ** Total precommitted capacity 
