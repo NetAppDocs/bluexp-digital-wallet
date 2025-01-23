@@ -52,29 +52,21 @@ image:screenshot_cvo_overview_digital_wallet.png[a screenshot displaying the cap
 
 . Select *View* to see the consumed capacity for each of your licensing packages.
 +
-. Select the *Licenses* tab shows you each package license that you have purchased <TONIA: what else?>
+. Select the *Licenses* tab shows you each package license that you have purchased.
 +
 To better understand the capacities that display for the Essentials package, you should be familiar with how charging works. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#notes-about-charging[Learn about charging for the Essentials package].
-
 +
-. Select he *Subscriptions* tab to see the consumed capacity by license consumption model and includes both PAYGO and annual contract licenses. 
+. Select the *Subscriptions* tab to see the consumed capacity by license consumption model and includes both PAYGO and annual contract licenses. 
 You'll only see the subscriptions that are associated with the organization that you are that you're currently viewing. 
 
 . As you view the information about your subscriptions, you can interact with the details in the table as follows:
-+
-* Use Advanced Search and Filtering to determine which subscriptions are shown in the table. You can search by a a specific name of a subscription and filter by a variety of subscription parameters such as type and configuration.
 +
 * Expand a row to view more details.
 +
 image:screenshot-subscriptions-expand.png[A screenshot of the Subscriptions tab in the digital wallet where you can select the arrow at the end of a row to expand it.]
 
 * Select image:icon-column-selector.png[the plus icon at the end of the table header] to choose which columns appear in the table. 
-+
 Note that the Term and Auto Renew columns don't appear by default. The Auto Renew column displays renewal information for Azure contracts only.
-+
-Here's an example of a Cloud Volumes ONTAP packages summary in BlueXP digital wallet:
-+
-image:screenshot_cvo_subscription_tab.png[A screenshot that shows a Cloud Volumes ONTAP packages summary including total consumed capacity, total precommitted capacity (BYOL and Marketplace Contracts), and total PAYGO, or provisioned, capacity in BlueXP digital wallet.]
 
 === Download usage reports
 
