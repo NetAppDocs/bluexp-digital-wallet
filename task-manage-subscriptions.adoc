@@ -104,7 +104,6 @@ You can limit use of a subscription to a specific organization or share the subs
 
 You must have the organization admin role in order to associate a subscription with an organization.
 
-
 NOTE: BlueXP supports Identity and Access Management (IAM) in standard mode which uses organizations to manage users and resources. If you're using BlueXP in restricted mode or private mode, then you use a BlueXP _account_ to manage users and resources, including subscriptions. 
 
 .Steps

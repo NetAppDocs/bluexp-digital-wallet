@@ -15,7 +15,7 @@ summary: "The BlueXP digital wallet enables you to manage licenses that you purc
 [.lead]
 The BlueXP digital wallet enables you to manage licenses that you purchased directly from NetApp (BYOL) for use with BlueXP data services as well as Cloud Volumes for ONTAP. You can view used license capacity, how much free capacity you have left, and you'll see notifications if you reached the capacity limit or the expiration date.
 
-The instructions on this page provide information that applies to each service, including Cloud Volumes for ONTAP. For more specific information about the licensing for these services, refer to the following pages:
+The instructions on this page provide information that applies to each service. For more specific information about the licensing for these services, refer to the following pages:
 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/task-licensing-cloud-backup.html[Set up licensing for BlueXP backup and recovery^]
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html[Set up licensing for BlueXP disaster recovery^]
