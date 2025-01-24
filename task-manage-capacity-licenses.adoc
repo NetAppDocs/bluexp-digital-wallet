@@ -52,13 +52,14 @@ image:screenshot_cvo_overview_digital_wallet.png[a screenshot displaying the cap
 
 . Select *View* to see the consumed capacity for each of your licensing packages.
 +
-. Select the *Licenses* tab shows you each package license that you have purchased.
+. Select the *Licenses* tab to see details for each package license that you have purchased.
 +
 To better understand the capacities that display for the Essentials package, you should be familiar with how charging works. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#notes-about-charging[Learn about charging for the Essentials package].
 +
-. Select the *Subscriptions* tab to see the consumed capacity by license consumption model and includes both PAYGO and annual contract licenses. 
+. Select the *Subscriptions* tab to see the consumed capacity by license consumption model. This tab includes both PAYGO and annual contract licenses. 
++ 
 You'll only see the subscriptions that are associated with the organization that you are that you're currently viewing. 
-
++
 . As you view the information about your subscriptions, you can interact with the details in the table as follows:
 +
 * Expand a row to view more details.
