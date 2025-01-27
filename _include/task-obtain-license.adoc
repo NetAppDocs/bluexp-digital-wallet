@@ -1,6 +1,12 @@
 
 
-After you purchase a license, you can activate the license in BlueXP either by entering the serial number and NSS account, or by uploading the NetApp license file (NLF). The steps below show how to get the NLF license file if you plan to use that method.
+After you purchase a license, you can activate the license in BlueXP either by entering the serial number and NSS account, or by uploading the NetApp license file (NLF). You should obtain a NetApp license file to upload if BlueXP does not have internet access.
+
+If you’re running BlueXP in an on-premises site that doesn’t have internet access (private mode),
+, you’ll need to obtain the license file from an internet-connected system. Activating the license using the serial number and NetApp Support Site account
+is not available for private mode installations.
+
+The steps below show how to get the NetApp license file from the NetApp support site.
 
 .Steps
 
