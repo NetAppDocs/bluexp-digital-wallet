@@ -1,0 +1,13 @@
+
+
+=== Configuring subscriptions to credentials
+The BlueXP digital wallet now allows you to configure your subscriptions to provider credentials. Typically you do this when you first subscribe to a Marketplace subscription or annual contract. Previously changing the subscription's credentials could only be done on the Credentials page. 
+
+=== Associating subscriptions with organizations
+You can now update the organization to which a subscription is associated directly through the digital wallet.
+
+=== Home page changes
+The digital wallet homepage now provides a graphical view of all of your licenses and subscriptions, with the ability to drill-down into specific categories.
+
+=== Managing Cloud Volume ONTAP licenses
+You now manage Cloud Volume ONTAP licenses through the home page or the *Data service licenses tab*.

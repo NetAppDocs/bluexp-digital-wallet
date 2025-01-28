@@ -93,18 +93,18 @@ The Configure option is grayed out if you have unsubscribed to a subscription.
 
 . Select the action menu in the row that corresponds to the subscription that you want to configure and choose *Configure*.
 
-. In the _Configure_ dialog, choose a credential to which to configure the subscription. You can only choose from credentials that are associated with the currently selected connector. If you don't see the credential that you want to use, try switching to a different connector view. <Tonia: is this true?>
+##. In the _Configure_ dialog, choose a credential to which to configure the subscription. You can only choose from credentials that are associated with the currently selected connector. If you don't see the credential that you want to use, try switching to a different connector view. ##
 
 
 == Associate a subscription with a BlueXP organization
 
 Associating a subscription with an organization ensures members of that that organization can use that subscription for charging. 
 
-You can limit use of a subscription to a specific organization or share the subscription between multiple organizations.  You can also replace an existing organization's subscription if the need arises. 
+You can limit use of a subscription to a specific organization or share the subscription between multiple organizations. You can also replace an existing organization's subscription if the need arises. 
 
 You must have the organization admin role in order to associate a subscription with an organization.
 
-NOTE: BlueXP supports Identity and Access Management (IAM) in standard mode which uses organizations to manage users and resources. If you're using BlueXP in restricted mode or private mode, then you use a BlueXP _account_ to manage users and resources, including subscriptions. 
+NOTE: BlueXP supports Identity and Access Management (IAM) in standard and private mode which uses organizations to manage users and resources. If you're using BlueXP in restricted mode, then you use a BlueXP _account_ to manage users and resources, including subscriptions. 
 
 .Steps
 
@@ -122,7 +122,7 @@ NOTE: BlueXP supports Identity and Access Management (IAM) in standard mode whic
 
 == Viewing credentials associated with a subscription
 
-You can view the credentials for a specific subscription from the *Marketplace Subscriptions* page in the digital wallet. This allows you to verify how the subscription is being billed. Because credentials are also tied to the connector you are using, you must select the connector associated with the subscription you want to see. <TONIA: need a good explanation here of the relationship between credentials used for subscriptions and credentials used for connectors>
+##You can view the credentials for a specific subscription from the *Marketplace Subscriptions* page in the digital wallet. This allows you to verify how the subscription is being billed. Because credentials are also tied to the connector you are using, you must select the connector associated with the subscription you want to see.##
 
 NOTE: Use the Connector drop-down in the top navigation bar to switch connectors if you need.
 
