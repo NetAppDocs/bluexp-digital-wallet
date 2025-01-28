@@ -1,15 +1,11 @@
 
-:hardbreaks:
-:nofooter:
-:icons: font
-:linkattrs:
-:imagesdir: ../media/
 
-After you purchase a license, you can activate the license in BlueXP either by entering the serial number and NSS account, or by uploading the NetApp license file (NLF). You should obtain a NetApp license file to upload if BlueXP does not have internet access.
 
-If you’re running BlueXP in an on-premises site that doesn’t have internet access (private mode),
-, you’ll need to obtain the license file from an internet-connected system. Activating the license using the serial number and NetApp Support Site account
-is not available for private mode installations.
+In some cases, you may not see your licenses automatically display in digital wallet after purchase. After you purchase a license, you can activate the license in BlueXP either by entering the serial number and NSS account, or by uploading the NetApp license file (NLF). You should obtain a NetApp license file to upload if BlueXP does not have internet access.
+
+In order to add a license to BlueXP, you can either provide BlueXP the serial number of the license or upload the license file(s). Activating the license using the serial number and NetApp Support Site account is not available for private mode installations.
+
+NOTE: If you want to enter the serial number, you first need to https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[add your NetApp Support Site account to BlueXP^]. This is the NetApp Support Site account that's authorized to access the serial number.
 
 The steps below show how to get the NetApp license file from the NetApp support site.
 
