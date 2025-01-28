@@ -31,104 +31,7 @@ In the meantime, BlueXP automatically queries NetApp's licensing service to obta
 
 If BlueXP can't add the license, you'll need to manually add it to the digital wallet yourself. For example, if your Connector (enables BlueXP to communicate with NetApp) is installed in a location that doesn't have internet access, you'll need to add the licenses yourself.
 
-== View the consumed capacity in your account
 
-The BlueXP digital wallet shows you the total consumed capacity in your account and the consumed capacity by licensing package. This can help you understand how you're being charged and whether you need to purchase additional capacity.
-
-.Steps
-
-. From the BlueXP navigation menu, select *Governance > Digital wallet*.
-
-. On the *Overview* tab, the Cloud Volumes ONTAP tile displays the current capacity used for your account. 
-+
-image:screenshot_cvo_overview_digital_wallet.png[a screenshot displaying the capacity summary for your Cloud Volumes ONTAP licenses and subscriptions.]
-+
-* _Data services_ is the total provisioned capacity of all Cloud Volumes ONTAP systems in your NetApp account. The charging is based on each volume's provisioned size, regardless of local, used, stored, or effective space within the volume.
-+
-* _Annual contract_ is the total licensed capacity (bring your own license (BYOL) or Marketplace Contract) that you purchased from NetApp.
-+
-* _PAYGO_ is the total provisioned capacity using cloud marketplace subscriptions. Charging via PAYGO is used only if the consumed capacity is higher than the licensed capacity or if there is no BYOL license available in the BlueXP digital wallet.
-+
-
-. Select *View* to see the consumed capacity for each of your licensing packages.
-+
-. Select the *Licenses* tab to see details for each package license that you have purchased.
-+
-To better understand the capacities that display for the Essentials package, you should be familiar with how charging works. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#notes-about-charging[Learn about charging for the Essentials package].
-+
-. Select the *Subscriptions* tab to see the consumed capacity by license consumption model. This tab includes both PAYGO and annual contract licenses. 
-+ 
-You'll only see the subscriptions that are associated with the organization that you are that you're currently viewing. 
-+
-. As you view the information about your subscriptions, you can interact with the details in the table as follows:
-+
-* Expand a row to view more details.
-+
-image:screenshot-subscriptions-expand.png[A screenshot of the Subscriptions tab in the digital wallet where you can select the arrow at the end of a row to expand it.]
-
-* Select image:icon-column-selector.png[the plus icon at the end of the table header] to choose which columns appear in the table. 
-Note that the Term and Auto Renew columns don't appear by default. The Auto Renew column displays renewal information for Azure contracts only.##
-
-=== Download usage reports
-
-You can download four usage reports from the BlueXP digital wallet. These usage reports provide capacity details of your subscriptions and tell you how you're being charged for the resources in your Cloud Volumes ONTAP subscriptions. The downloadable reports capture data at a point in time and can be easily shared with others. 
-
-image:screenshot-digital-wallet-usage-report.png[Screenshot shows the digital wallet Cloud Volumes ONTAP capacity based licenses page and highlights the usage report button.]
-
-The following reports are available for download. Capacity values shown are in TiB. 
-
-* *High-level usage*: This report includes the following information: 
-+
-** Total consumed capacity 
-** Total precommitted capacity 
-** Total BYOL capacity 
-** Total Marketplace contracts capacity
-** Total PAYGO capacity
-
-* *Cloud Volumes ONTAP package usage*: This report includes the following information for each package except the Optimized I/O package: 
-+
-** Total consumed capacity
-** Total precommitted capacity 
-** Total BYOL capacity 
-** Total Marketplace contracts capacity 
-** Total PAYGO capacity
-
-* *Storage VMs usage*: This report shows how charged capacity is broken down across Cloud Volumes ONTAP systems and storage virtual machines (SVMs). This information is not available on any screen in the digital wallet. It includes the following information: 
-+
-** Working environment ID and name (appears as the UUID)
-** Cloud
-** NetApp account ID
-** Working environment configuration
-** SVM name
-** Provisioned capacity
-** Charged capacity roundup
-** Marketplace billing term
-** Cloud Volumes ONTAP package or feature
-** Charging SaaS Marketplace subscription name
-** Charging SaaS Marketplace subscription ID
-** Workload type
-
-* *Volumes usage*: This report shows how charged capacity is broken down by volumes in a working environment. This information is not available on any screen in the digital wallet. It includes the following information: 
-+
-** Working environment ID and name (appears as the UUID)
-** SVN name
-** Volume ID 
-** Volume type
-** Volume provisioned capacity
-+
-NOTE: FlexClone volumes aren't included in this report because these types of volumes don't incur charges. 
-
-.Steps
-
-. From the BlueXP navigation menu, select *Governance > Digital wallet*.
-
-. On the *Overview* tab, select *View* from the Cloud Volumes ONTAP tile.
-
-. Select *Usage report*.
-+
-The usage report downloads. 
-
-. Open the downloaded file to access the reports. 
 
 [[obtain-license]]
 == Obtain a license file
@@ -234,3 +137,102 @@ To learn about what happens to your Cloud Volumes ONTAP data on expiration or re
 . On the _Data services licenses_ tab, select image:screenshot_horizontal_more_button.gif[More icon] for the  serial number you are updating, and select *Remove License*.
 
 . Select *Remove* to confirm.
+
+== View the consumed capacity in your account
+
+The BlueXP digital wallet shows you the total consumed capacity in your account and the consumed capacity by licensing package. This can help you understand how you're being charged and whether you need to purchase additional capacity.
+
+.Steps
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. On the *Overview* tab, the Cloud Volumes ONTAP tile displays the current capacity used for your account. 
++
+image:screenshot_cvo_overview_digital_wallet.png[a screenshot displaying the capacity summary for your Cloud Volumes ONTAP licenses and subscriptions.]
++
+* _Data services_ is the total provisioned capacity of all Cloud Volumes ONTAP systems in your NetApp account. The charging is based on each volume's provisioned size, regardless of local, used, stored, or effective space within the volume.
++
+* _Annual contract_ is the total licensed capacity (bring your own license (BYOL) or Marketplace Contract) that you purchased from NetApp.
++
+* _PAYGO_ is the total provisioned capacity using cloud marketplace subscriptions. Charging via PAYGO is used only if the consumed capacity is higher than the licensed capacity or if there is no BYOL license available in the BlueXP digital wallet.
++
+
+. Select *View* to see the consumed capacity for each of your licensing packages.
++
+. Select the *Licenses* tab to see details for each package license that you have purchased.
++
+To better understand the capacities that display for the Essentials package, you should be familiar with how charging works. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#notes-about-charging[Learn about charging for the Essentials package].
++
+. Select the *Subscriptions* tab to see the consumed capacity by license consumption model. This tab includes both PAYGO and annual contract licenses. 
++ 
+You'll only see the subscriptions that are associated with the organization that you are that you're currently viewing. 
++
+. As you view the information about your subscriptions, you can interact with the details in the table as follows:
++
+* Expand a row to view more details.
++
+image:screenshot-subscriptions-expand.png[A screenshot of the Subscriptions tab in the digital wallet where you can select the arrow at the end of a row to expand it.]
+
+* Select image:icon-column-selector.png[the plus icon at the end of the table header] to choose which columns appear in the table. 
+Note that the Term and Auto Renew columns don't appear by default. The Auto Renew column displays renewal information for Azure contracts only.##
+
+=== Download usage reports
+
+You can download four usage reports from the BlueXP digital wallet. These usage reports provide capacity details of your subscriptions and tell you how you're being charged for the resources in your Cloud Volumes ONTAP subscriptions. The downloadable reports capture data at a point in time and can be easily shared with others. 
+
+image:screenshot-digital-wallet-usage-report.png[Screenshot shows the digital wallet Cloud Volumes ONTAP capacity based licenses page and highlights the usage report button.]
+
+The following reports are available for download. Capacity values shown are in TiB. 
+
+* *High-level usage*: This report includes the following information: 
++
+** Total consumed capacity 
+** Total precommitted capacity 
+** Total BYOL capacity 
+** Total Marketplace contracts capacity
+** Total PAYGO capacity
+
+* *Cloud Volumes ONTAP package usage*: This report includes the following information for each package except the Optimized I/O package: 
++
+** Total consumed capacity
+** Total precommitted capacity 
+** Total BYOL capacity 
+** Total Marketplace contracts capacity 
+** Total PAYGO capacity
+
+* *Storage VMs usage*: This report shows how charged capacity is broken down across Cloud Volumes ONTAP systems and storage virtual machines (SVMs). This information is not available on any screen in the digital wallet. It includes the following information: 
++
+** Working environment ID and name (appears as the UUID)
+** Cloud
+** NetApp account ID
+** Working environment configuration
+** SVM name
+** Provisioned capacity
+** Charged capacity roundup
+** Marketplace billing term
+** Cloud Volumes ONTAP package or feature
+** Charging SaaS Marketplace subscription name
+** Charging SaaS Marketplace subscription ID
+** Workload type
+
+* *Volumes usage*: This report shows how charged capacity is broken down by volumes in a working environment. This information is not available on any screen in the digital wallet. It includes the following information: 
++
+** Working environment ID and name (appears as the UUID)
+** SVN name
+** Volume ID 
+** Volume type
+** Volume provisioned capacity
++
+NOTE: FlexClone volumes aren't included in this report because these types of volumes don't incur charges. 
+
+.Steps
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. On the *Overview* tab, select *View* from the Cloud Volumes ONTAP tile.
+
+. Select *Usage report*.
++
+The usage report downloads. 
+
+. Open the downloaded file to access the reports. 
