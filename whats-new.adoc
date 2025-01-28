@@ -20,6 +20,7 @@ Learn what's new with the BlueXP digital wallet.
 == 10 February 2025
 
 include::_whatsnew/2025-02-10.adoc[]
+
 == 5 March 2024
 
 include::_whatsnew/2024-03-05.adoc[]
