@@ -1,9 +1,9 @@
 
 
 
-In some cases, you may not see your licenses automatically display in digital wallet after purchase. After you purchase a license, you can activate the license in BlueXP either by entering the serial number and NSS account, or by uploading the NetApp license file (NLF). You should obtain a NetApp license file to upload if BlueXP does not have internet access.
+In some cases, you may not see your licenses automatically display in digital wallet after your purchase. This happens either when BlueXP is not connected to the internet or when your BlueXP account is not associated with your NetApp Support Site (NSS) account.
 
-In order to add a license to BlueXP, you can either provide BlueXP the serial number of the license or upload the license file(s). Activating the license using the serial number and NetApp Support Site account is not available for private mode installations.
+After you purchase a license, you can add the license in BlueXP either by entering the serial number and the associated NSS account, or by uploading the NetApp license file (NLF). You should obtain a NetApp license file to upload if BlueXP does not have internet access (private mode installations).
 
 NOTE: If you want to enter the serial number, you first need to https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[add your NetApp Support Site account to BlueXP^]. This is the NetApp Support Site account that's authorized to access the serial number.
 
@@ -30,10 +30,10 @@ account-ea10e1c6
 
 . Enter the serial number for your license.
 +
-image:screenshot_cloud_backup_license_step1.gif[A screenshot that shows a table of licenses after searching by serial number.]
+image:../media/screenshot_cloud_backup_license_step1.gif[A screenshot that shows a table of licenses after searching by serial number.]
 
 . In the *License Key* column, select *Get NetApp License File*.
 
 . Enter your BlueXP account ID (this is called a Tenant ID on the support site) and select *Submit* to download the license file.
 +
-image:screenshot_cloud_backup_license_step2.gif[A screenshot that shows the get license dialog box where you enter your tenant ID and then select Submit to download the license file.]
+image:../media/screenshot_cloud_backup_license_step2.gif[A screenshot that shows the get license dialog box where you enter your tenant ID and then select Submit to download the license file.]
