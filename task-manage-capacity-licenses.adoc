@@ -36,43 +36,7 @@ If BlueXP can't add the license, you'll need to manually add it to the digital w
 [[obtain-license]]
 == Obtain a license file
 
-In some cases, you may not see your licenses automatically display in digital wallet after your purchase. This happens either when BlueXP is not connected to the internet or when your BlueXP account is not associated with your NetApp Support Site (NSS) account.
-
-
-After you purchase a license, you can add the license in BlueXP either by entering the serial number and the associated NSS account, or by uploading the NetApp license file (NLF). You should obtain a NetApp license file to upload if BlueXP does not have internet access (private mode installations).
-
-NOTE: If you want to enter the serial number, you first need to https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[add your NetApp Support Site account to BlueXP^]. This is the NetApp Support Site account that's authorized to access the serial number.
-
-The steps below show how to get the NetApp license file from the NetApp support site.
-
-.Steps
-
-. Find your BlueXP account ID:
-
-.. In the upper right of the BlueXP console, select image:icon-settings-option.png[The settings icon which displays in the top right of the BlueXP web console.] > *Identity & Access Management*.
-.. On the Organization page, look for your account ID and copy it. 
-+
-If there is no account ID listed and you just have an organization ID, then you'll need to copy the first eight characters of the organization ID and append it to _account-_
-+
-For example, let's say this is your organization ID:
-+
-ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
-+
-Your account ID would be as follows: 
-+
-account-ea10e1c6
-
-. Sign in to the https://mysupport.netapp.com[NetApp Support Site^] and select *Systems > Software Licenses*.
-
-. Enter the serial number for your license.
-+
-image:screenshot_cloud_backup_license_step1.gif[A screenshot that shows a table of licenses after searching by serial number.]
-
-. In the *License Key* column, select *Get NetApp License File*.
-
-. Enter your BlueXP account ID (this is called a Tenant ID on the support site) and select *Submit* to download the license file.
-+
-image:screenshot_cloud_backup_license_step2.gif[A screenshot that shows the get license dialog box where you enter your tenant ID and then select Submit to download the license file.]
+include::_include/task-obtain-license.adoc[]
 
 == Add purchased licenses to your account
 
@@ -96,7 +60,7 @@ If you entered a serial number, you also need to select the NetApp Support Site 
 +
 If your NetApp Support Site account isn't available from the drop-down list, https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[add the NSS account to BlueXP^]
 
-* If you have the license file (required when using BlueXP in private mode), select the *Upload license file* option and follow the prompts to attach the file. <<obtain-license,Learn how to obtain a license file.>>
+* If you have the license file (required when using BlueXP in private mode), select the *Upload license file* option and follow the prompts to attach the file. 
 
 == Update a capacity-based license
 
@@ -114,7 +78,7 @@ To learn about what happens to your Cloud Volumes ONTAP data on expiration or re
 
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
 
-. On the _Data service licenses_ tab, select image:screenshot_horizontal_more_button.gif[More icon] for the  serial number you are updating, and select *Remove License*.
+. On the _Data service licenses_ tab, select image:screenshot_horizontal_more_button.gif[More icon] for the license you want to remove and select *Remove License*.
 
 . Select *Remove* to confirm.
 
@@ -180,7 +144,7 @@ The following reports are available for download. Capacity values shown are in T
 ** Total Marketplace contracts capacity 
 ** Total PAYGO capacity
 
-* *Storage VMs usage*: This report shows how charged capacity is broken down across Cloud Volumes ONTAP systems and storage virtual machines (SVMs). This information is not available on any screen in the digital wallet. It includes the following information: 
+* *Storage VMs usage*: This report shows how charged capacity is broken down across Cloud Volumes ONTAP systems and storage virtual machines (SVMs). This information is only available in the report. It contains the following information: 
 +
 ** Working environment ID and name (appears as the UUID)
 ** Cloud
