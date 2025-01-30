@@ -30,7 +30,7 @@ For Google Cloud, you can also identify marketplace subscriptions that are assoc
 
 . Select *Marketplace Subscriptions*.
 +
-You'll only see the subscriptions that are associated with the organization that you are that you're currently viewing. ## 
+You'll only see the subscriptions that are associated with the organization that you are that you're currently viewing. 
 
 . As you view the information about your subscriptions, you can interact with the details in the table as follows:
 +

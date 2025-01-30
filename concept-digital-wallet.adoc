@@ -25,7 +25,7 @@ The BlueXP digital wallet enables you to manage and monitor BlueXP licenses purc
 
 == Supported services
 
-The BlueXP digital wallet enables you to manage licenses for the following services:
+The BlueXP digital wallet enables you to manage licenses and subscriptions for the following services:
 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html[Backup and recovery^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html[Cloud Volumes ONTAP^]
@@ -34,4 +34,14 @@ The BlueXP digital wallet enables you to manage licenses for the following servi
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html[On-prem ONTAP clusters^]
 * https://docs.netapp.com/us-en/bluexp-tiering/index.html[Tiering^]
 
-TIP: The BlueXP digital wallet also enables you to manage licenses for BlueXP classification. However, BlueXP classification is now available as a core capability within BlueXP at no additional charge. A license or subscription is no longer required. https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html[Learn more about BlueXP classification^]
+== How licenses and subscriptions are displayed in digital wallet
+
+Both licenses and subscriptions automatically display in digital wallet when the BlueXP account used to subscribe is also an NetApp Support Site account. If you used a BlueXP account that is not associated with your NSS account, you'll need to manually add a license.
+
+After you purchase a license from your NetApp sales representative, NetApp sends you an email with the serial number and additional licensing details.
+
+In the meantime, BlueXP automatically queries NetApp's licensing service to obtain details about the licenses associated with your NetApp Support Site account. If there are no errors, BlueXP automatically adds the licenses to the digital wallet.
+
+If BlueXP can't add the license, you'll need to manually add it to the digital wallet yourself. For example, if your Connector (enables BlueXP to communicate with NetApp) is installed in a location that doesn't have internet access, you'll need to add the licenses yourself.
+
+

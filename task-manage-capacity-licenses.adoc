@@ -17,7 +17,7 @@ Manage your capacity-based licenses for BlueXP Cloud Volumes ONTAP from digital 
 
 //The contents of this page are reused in the bluexp-cloud-volumes-ontap site. As a result, any links from this page to other pages must use absolute URLs so that the links resolve from the bluexp-cloud-volumes-ontap doc site.
 
-The _BlueXP digital wallet_ enables you to manage your licenses for Cloud Volumes ONTAP. You can add new licenses and update existing licenses, as well as run usage reports. Cloud Volumes for ONTAP uses a capacity-based model where _Capacity-based licenses_ enable you to pay for Cloud Volumes ONTAP per TiB of capacity.
+The _BlueXP digital wallet_ enables you to manage your licenses for Cloud Volumes ONTAP. You can add new licenses and update existing licenses, as well as run usage reports. Cloud Volumes for ONTAP uses a capacity-based model where _capacity-based licenses_ enable you to pay for Cloud Volumes ONTAP per TiB of capacity.
 
 NOTE: While the actual usage and metering for the products and services managed in BlueXP are always calculated in GiB and TiB, the terms GB/GiB and TB/TiB are used interchangeably. This is reflected in the Cloud Marketplace listings, price quotes, listing descriptions, and other supporting documentation.
 
@@ -40,27 +40,8 @@ include::_include/task-obtain-license.adoc[]
 
 == Add purchased licenses to your account
 
-If you don't see your purchased licenses in the BlueXP digital wallet, you'll need to add the license file (or _files_ if you have an HA pair) to BlueXP so that the capacity is available for Cloud Volumes ONTAP.
+include::_include/task-add-license.adoc[]
 
-In order to add a license to BlueXP, you can either provide BlueXP with the serial number of the license or upload the license file(s). 
-
-NOTE: If you want to enter the serial number, you first need to https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[add your NetApp Support Site account to BlueXP^]. This is the NetApp Support Site account that's authorized to access the serial number.
-
-.Steps
-
-. From the BlueXP menu, select *Governance > Digital wallet* and then select the *Data service licenses* tab.
-
-. Select *Add license*.
-
-. In the _Add license_ dialog, enter the license information and select *Add license*:
-+
-* If you have the serial number and know your NSS account, select the *Enter serial number* option and enter that information.
-+
-If you entered a serial number, you also need to select the NetApp Support Site account that's authorized to access the serial number.
-+
-If your NetApp Support Site account isn't available from the drop-down list, https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[add the NSS account to BlueXP^]
-
-* If you have the license file (required when using BlueXP in private mode), select the *Upload license file* option and follow the prompts to attach the file. 
 
 == Update a capacity-based license
 
