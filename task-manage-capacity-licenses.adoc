@@ -101,6 +101,42 @@ image:screenshot-subscriptions-expand.png[A screenshot of the Subscriptions tab 
 * Select image:icon-column-selector.png[the plus icon at the end of the table header] to choose which columns appear in the table. 
 Note that the Term and Auto Renew columns don't appear by default. The Auto Renew column displays renewal information for Azure contracts only.
 
+== Change charging methods
+
+Capacity-based licensing is available in the form of a _package_. When you create a Cloud Volumes ONTAP working environment, you can choose from several licensing packages based on your business needs. If your needs change after you create the working environment, you can change the package at any time. For example, you might change from the Essentials package to the Professional package.
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[Learn more about capacity-based licensing packages^].
+
+.About this task
+
+* Changing the charging method doesn't affect whether you're charged through a license purchased from NetApp (BYOL) or from your cloud provider's marketplace pay-as-you-go (PAYGO) subscription. 
++
+BlueXP always attempts to charge against a license first. If a license isn't available, it charges against a marketplace subscription. No "conversion" is required for BYOL to marketplace subscription or vice versa.
+
+* If you have a private offer or contract from your cloud provider's marketplace, changing to a charging method that's not included in your contract will result in charging against BYOL (if you purchased a license from NetApp) or PAYGO.
+
+.Steps
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. Select the *Overview* tab.
+
+. On the Cloud Volumes ONTAP tile, select *View*.
+
+. Select *Switch to Legacy View*.
+
+. Scroll down to the *Capacity-based license* table  and select *Change Charging Method*.
++
+image:screenshot-digital-wallet-charging-method-button.png[A screenshot of the Cloud Volumes ONTAP page in the BlueXP digital wallet where the Change Charging Method button is just above the table.]
+
+. Select a working environment, choose the new charging method, and then confirm your understanding that changing the package type will affect service charges.
++
+image:screenshot-digital-wallet-charging-method.png[A screenshot of the Change Charging Method dialog box where you choose a new charging method for a Cloud Volumes ONTAP working environment.]
+
+.  Select *Change Charging Method*.
+
+
+
 === Download usage reports
 
 You can download four usage reports from the BlueXP digital wallet. These usage reports provide capacity details of your subscriptions and tell you how you're being charged for the resources in your Cloud Volumes ONTAP subscriptions. The downloadable reports capture data at a point in time and can be easily shared with others. 
