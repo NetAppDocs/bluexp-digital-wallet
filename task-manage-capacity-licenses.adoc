@@ -100,7 +100,9 @@ If your NetApp Support Site account isn't available from the drop-down list, htt
 
 == Update a capacity-based license
 
+
 include::_include/task-update-license.adoc[]
+
 
 == Remove a capacity-based license
 
