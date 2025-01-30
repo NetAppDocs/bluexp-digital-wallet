@@ -98,32 +98,9 @@ If your NetApp Support Site account isn't available from the drop-down list, htt
 
 * If you have the license file (required when using BlueXP in private mode), select the *Upload license file* option and follow the prompts to attach the file. <<obtain-license,Learn how to obtain a license file.>>
 
+== Update a capacity-based license
 
- == Update a capacity-based license 
-
-If your licensed term is nearing the expiration date, or if your licensed capacity is reaching the limit, you'll be notified in the BlueXP digital wallet. You can update your license before it expires so that there is no interruption in your ability to use the BlueXP data service or Cloud Volumes ONTAP.
-
-##TIP: Consider also subscribing to the marketplace offering. Your license is always charged first, but you'll be charged at the hourly rate if you exceed your licensed capacity or if the license's term expires.##
-
-If you purchased additional capacity from NetApp or extended the term of your license, BlueXP automatically updates the license in the digital wallet. There's nothing that you need to do.
-
-However, if you deployed BlueXP in a location that doesn't have internet access, then you'll need to manually update the license file (or _files_ if you have a Cloud Volumes ONTAP HA pair) in BlueXP.
-
-
-
-.Steps
-
-. Select the chat icon in the lower-right of BlueXP to request an extension to your term or additional capacity to your BlueXP tiering license for the particular serial number.
-+
-After you pay for the license and it is registered with the NetApp Support Site, BlueXP automatically updates the license in the BlueXP digital wallet and the Data service licenses page will reflect the change in 5 to 10 minutes.
-
-+
-
-. If BlueXP can't automatically update the license (for example, when using BlueXP in private mode), then you'll need to obtain a NetApp license file from support and manually upload the license file. <<obtain-license,Learn how to obtain a license file.>>
-. On the _Data service licenses_ tab, select image:icon-action.png[More icon] for the  serial number you are updating, and select *Update license*.
-+
-
-. In the _Update license_ page, upload the license file and select *Update License*.
+include::_include/task-update-license.adoc[]
 
 == Remove a capacity-based license
 
