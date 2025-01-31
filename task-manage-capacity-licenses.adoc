@@ -155,7 +155,7 @@ image:screenshot-digital-wallet-charging-method.png[A screenshot of the Change C
 
 
 
-=== Download usage reports
+== Download usage reports
 
 You can download four usage reports from the BlueXP digital wallet. These usage reports provide capacity details of your subscriptions and tell you how you're being charged for the resources in your Cloud Volumes ONTAP subscriptions. The downloadable reports capture data at a point in time and can be easily shared with others. 
 
