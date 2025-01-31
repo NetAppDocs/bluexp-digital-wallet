@@ -13,14 +13,14 @@ summary: When you subscribe to BlueXP from a cloud provider's marketplace, you'r
 :imagesdir: ./media/
 
 [.lead]
-When you subscribe to BlueXP from a cloud provider's marketplace, you're redirected to the BlueXP website where you need to save your subscription and configure it with specific cloud credentials (connector credentials). After you've subscribed, each subscription is available to manage from the BlueXP digital wallet. ## is this accurate? ##
+When you subscribe to BlueXP data services (including Cloud Volumes ONTAP) from a cloud provider's marketplace, you're redirected to the BlueXP website where you need to save your subscription and associate it with your BlueXP organization. After you've subscribed, each subscription is available to manage from the BlueXP digital wallet. 
 
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html[Learn how to subscribe to BlueXP (standard mode)^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html[Learn how to subscribe to BlueXP (restricted mode)^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html[Learn how to subscribe to BlueXP data services (standard mode)^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html[Learn how to subscribe to BlueXP data services (restricted mode)^]
 
 == View your subscriptions
 
-The BlueXP digital wallet provides details about each PAYGO subscription and annual contract associated with your BlueXP organization or account, and with Astra Control (Astra Control uses BlueXP's charging service). ## should we still mention Astra here? ##
+The BlueXP digital wallet provides details about each PAYGO subscription and annual contract associated with your BlueXP organization or account.
 
 For Google Cloud, you can also identify marketplace subscriptions that are associated with a private offer, which enables you to verify that you've successfully accepted the offer.
 
