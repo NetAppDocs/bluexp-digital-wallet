@@ -32,7 +32,6 @@ In the meantime, BlueXP automatically queries NetApp's licensing service to obta
 If BlueXP can't add the license, you'll need to manually add it to the digital wallet yourself. For example, if your Connector (enables BlueXP to communicate with NetApp) is installed in a location that doesn't have internet access, you'll need to add the licenses yourself.
 
 
-
 [[obtain-license]]
 == Obtain a license file
 
@@ -66,6 +65,7 @@ To learn about what happens to your Cloud Volumes ONTAP data on expiration or re
 == View the consumed capacity in your account
 
 The BlueXP digital wallet shows you the total consumed capacity in your account and the consumed capacity by licensing package. This can help you understand how you're being charged and whether you need to purchase additional capacity.
+
 
 .Steps
 
@@ -101,6 +101,22 @@ image:screenshot-subscriptions-expand.png[A screenshot of the Subscriptions tab 
 * Select image:icon-column-selector.png[the plus icon at the end of the table header] to choose which columns appear in the table. 
 Note that the Term and Auto Renew columns don't appear by default. The Auto Renew column displays renewal information for Azure contracts only.
 
+== Viewing package details
+
+You can view details about the capacity used per package by switching to legacy mode on the Cloud Volumes ONTAP page.
+
+ . From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. On the *Overview* tab, the Cloud Volumes ONTAP tile displays the current capacity used for your account. 
+
+. Select *View* to see the consumed capacity for each of your licensing packages.
+
+. Select *Switch to Legacy View*.
++
+image:screenshot_digital_wallet_legacy_view.png[A screenshot of the Switch to Legacy view button]
++
+
+
 == Change charging methods
 
 Capacity-based licensing is available in the form of a _package_. When you create a Cloud Volumes ONTAP working environment, you can choose from several licensing packages based on your business needs. If your needs change after you create the working environment, you can change the package at any time. For example, you might change from the Essentials package to the Professional package.
@@ -124,7 +140,9 @@ BlueXP always attempts to charge against a license first. If a license isn't ava
 . On the Cloud Volumes ONTAP tile, select *View*.
 
 . Select *Switch to Legacy View*.
-
++
+image:screenshot_digital_wallet_legacy_view.png[A screenshot of the Switch to Legacy view button]
++
 . Scroll down to the *Capacity-based license* table  and select *Change Charging Method*.
 +
 image:screenshot-digital-wallet-charging-method-button.png[A screenshot of the Cloud Volumes ONTAP page in the BlueXP digital wallet where the Change Charging Method button is just above the table.]
