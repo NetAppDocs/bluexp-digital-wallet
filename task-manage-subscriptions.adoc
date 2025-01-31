@@ -120,7 +120,7 @@ NOTE: BlueXP supports Identity and Access Management (IAM) in standard mode whic
 
 . Select *Associate*.
 
-== Viewing credentials associated with a subscription
+== View credentials associated with a subscription
 
 ##You can view the credentials for a specific subscription from the *Marketplace Subscriptions* page in the digital wallet. This allows you to verify how the subscription is being billed. Because credentials are also tied to the connector you are using, you must select the connector associated with the subscription you want to see.##
 
@@ -133,3 +133,28 @@ NOTE: Use the Connector drop-down in the top navigation bar to switch connectors
 . Select *Marketplace Subscriptions*.
 
 . On the row that contains the subscription whose credentials you want to view, select View. If there are multiple credentials associated with a subscription, no credentials may show and you are directed to select a different connector.
+
+== Add a new marketplace subscription
+
+You can subscribe to a marketplace subscription directly from digital wallet.
+
+
+
+
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. Select *Marketplace Subscriptions*.
+
+. Above the *Subscriptions* table, select *Add Subscription*.
+
+. In the _Add Subscription_ dialog, select a cloud provider.
+
+.. If choosing an AWS subscription, choose whether you want an annual contract or PAYGO subscription.
+
+. Select *Add subscription* to navigate to the provider's marketplace and complete the steps provided.
+
+. When finished at the cloud provider marketplace, return to BlueXP to complete the process. 
+
+
+
