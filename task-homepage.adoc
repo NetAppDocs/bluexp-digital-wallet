@@ -1,0 +1,38 @@
+---
+sidebar: sidebar
+permalink: task-homepage.html
+keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap
+summary: Get an overview of all subscriptions and licenses for your organization on the digital homepage.
+---
+
+== View licenses and subscriptions status
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can monitor your organization's licenses and subscriptions through the digital wallet *Overview* tab. It highlights the current capacity of each of your data services licenses and subscriptions as well as directs you to take action on issues you may have, such as expiring licenses.
+
+Monitoring the health of your license and subscription status ensures that you can manage costs and maintain service as subscriptions reach expiration dates. You can use the *Overview* page to get high-level view into the consumed capacity of each of your licenses and subscriptions. You can also see distribution view of how many licenses and subscriptions of each type that your organization has.
+
+To view information about specific data services (including Cloud Volumes ONTAP), you drill-down into respective data services to view details on what subscriptions and licenses are associated with each. 
+
+image:screenshot_overview_dashboard.png[Digital wallet dashboard on the Overview tab]
+
+|===
+|Dashboard element | Task
+
+| *1*  Data Service license | Select *View* to view the total number of data service licenses (purchased from NetApp) available to your organization
+
+| *2*  Annual Contract and Subscriptions| Select *View* to see a summary of all marketplace subscriptions including annual contracts and PAYGO subscriptions.
+
+| *3*  Action alerts | Expiring subscriptions or licenses trigger action alerts displayed here. Select *Resolve* to navigate to the related issue and take action.
+
+| *3*  Data service tiles | BlueXP data services each have their own overview tile that displays used capacity, number of licenses and subscriptions, as well as alert icons. Select *View* to view a details page.
+
+|===
+
+
+
