@@ -5,7 +5,7 @@ keywords: license, licensing, capacity license, capacity based license, add lice
 summary: Get an overview of all subscriptions and licenses for your organization on the digital homepage.
 ---
 [[overview-page]]
-== View licenses and subscriptions by data service
+== Use the dashboard overview
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Get an overview of all subscriptions and licenses for your organization
 :imagesdir: ./media/
 
 [.lead]
-Use the *Overview* page in digital wallet to monitor the health of your licenses and subscriptions to ensure that you can manage costs and maintain service as subscriptions reach expiration dates or capacity limits. 
+Use the *Overview* dashboard in digital wallet to monitor the health of your licenses and subscriptions to ensure that you can manage costs and maintain service as subscriptions reach expiration dates or capacity limits. 
 
 You can view specific license and subscription information about each of your data services (including Cloud Volumes ONTAP) and drill-down into details for each. 
 
@@ -21,7 +21,7 @@ You'll also be alerted to upcoming capacity limits or expirations and be prompte
 
 === View details about a specific data service
 
-The digital wallet *Overview* page provides the ability to view details on the following data services:
+The digital wallet *Overview* pdashboard provides the ability to view details on the following data services:
 
 * Cloud Volumes ONTAP
 * Disaster recovery

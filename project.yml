@@ -21,17 +21,19 @@ sidebar:
           url: /concept-digital-wallet.html
     - title: Use the BlueXP digital wallet
       entries:
-        - title: View licenses and subscriptions by data service
+        - title: Use the dashboard overview
           url: /task-homepage.html
-        - title: Manage licenses for Cloud Volumes ONTAP
-          entries:
-          - title: Capacity-based licenses
-            url: /task-manage-capacity-licenses.html
-          - title: Node-based licenses
-            url: /task-manage-node-based-licenses.html
-        - title: Manage all BlueXP licenses
+  
+        - title: Manage licenses
           url: /task-manage-data-services-licenses.html
-        - title: Manage BlueXP Marketplace subscriptions
+          entries:
+           - title: Manage licenses for Cloud Volumes ONTAP
+             entries:
+              - title: Capacity-based licenses
+                url: /task-manage-capacity-licenses.html
+              - title: Node-based licenses
+                url: /task-manage-node-based-licenses.html
+        - title: Manage Marketplace subscriptions
           url: /task-manage-subscriptions.html
         - title: Manage Keystone subscriptions
           url: /task-manage-keystone.html
