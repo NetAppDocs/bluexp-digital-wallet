@@ -34,5 +34,72 @@ image:screenshot_overview_dashboard.png[Digital wallet dashboard on the Overview
 
 |===
 
+=== View details about a specific data service
+
+The digital wallet *Overview* page allows you to drill-down into the license and subscription status for an individual data service. For example, administrators tasked with managing Cloud Volumes ONTAP resources can view the current capacity of each license or subscription which gives them a focused view resources within their purview. 
+
+The digital wallet *Overview* page provides the ability to view details on the following data services:
+
+* Cloud Volumes ONTAP
+* Disaster recovery
+* Ransomware protection
+* Backup and recovery
+* Tiering
+
+.Steps
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. Select *Overview*.
+
+. Select *View* for the respective data service (including Cloud Volumes ONTAP) to view details and manage licenses and subscriptions. 
++
+Each tile provides a graphical overview of capacity status while the details page allows you to see and manage payment methods for that capacity.
++
+
+. Select either the *Licenses* or *Subscriptions* tab. 
+
+. Filter the table by selecting a column filter and a value to filter by. For example, on the *Subscriptions* tab, you can filter the Type column by Annual Contract or Subscription.
++
+image:screenshot_digital_wallet_filter.png[Filter action on subscription table]
+
++
+
+. Customize the columns shown in the table. You can add and remove columns from the table by selecting the Column icon indicating which columns you want to show or hide. The following screenshot indicates that only the Type, End Date, Status, and Configuration columns.
+
++
+image:screenshot_digital_wallet_show_hide_columns.png[screenshot provides an example of how to show or hide columns]
++
+
+. Expand any row to view details of what the subscrption or license includes, capacity purchased, and terms.
+
+. Use the actions menu to manage a specific license or subscription, such as update a license or associate a subscription with a different organization.
++ 
+You cannot add new licenses or subscriptions from the *Overview* page for a specific service, you can only add licenses or subscriptions from the *Data service licenses* tab or the *Marketplace subscriptions* tab, respectively.
++
+
+
+=== Resolve license or subscription issues
+
+You can view license and subscription issues that need to be resolved. Issues include licenses and subscriptions that are expiring or reaching capacity.
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. Select *Overview*.
+
+. Select *Resolve* for the *Requires action* tile to view issues that need to be adjusted. If *Resolve* does not display there are no issues that require action at this time. 
+
+. From the *Require action* page, select either the *Licenses* tab or the *Subscriptions* tab.
+
+. Use the action menu to resolve the issue. 
+
++ 
+Please refer to <<section-id, path/to/other-file.adoc#section-id>> for more details.
+
+Learn more about managing licenses.
+Learn more about managing subscriptions.
+
+
+
 
 
