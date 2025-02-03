@@ -19,21 +19,6 @@ Monitoring the health of your license and subscription status ensures that you c
 
 To view information about specific data services (including Cloud Volumes ONTAP), you drill-down into respective data services to view details on what subscriptions and licenses are associated with each. 
 
-image:screenshot_overview_dashboard.png[Digital wallet dashboard on the Overview tab]
-
-|===
-|Dashboard element | Task
-
-| *1*  Data Service license | Select *View* to view the total number of data service licenses (purchased from NetApp) available to your organization
-
-| *2*  Annual Contract and Subscriptions| Select *View* to see a summary of all marketplace subscriptions including annual contracts and PAYGO subscriptions.
-
-| *3*  Action alerts | Expiring subscriptions or licenses trigger action alerts displayed here. Select *Resolve* to navigate to the related issue and take action.
-
-| *3*  Data service tiles | BlueXP data services each have their own overview tile that displays used capacity, number of licenses and subscriptions, as well as alert icons. Select *View* to view a details page.
-
-|===
-
 === View details about a specific data service
 
 The digital wallet *Overview* page allows you to drill-down into the license and subscription status for an individual data service. For example, administrators tasked with managing Cloud Volumes ONTAP resources can view the current capacity of each license or subscription which gives them a focused view resources within their purview. 
@@ -94,10 +79,11 @@ You can view license and subscription issues that need to be resolved. Issues in
 . Use the action menu to resolve the issue. 
 
 + 
-Please refer to <<section-id, path/to/other-file.adoc#section-id>> for more details.
 
-Learn more about managing licenses.
-Learn more about managing subscriptions.
+link:task-data-services-licenses.html^[Learn more about managing licenses.]
+link:task-manage-subscriptions.html^[Learn more about managing subscriptions.]
+
++
 
 
 
