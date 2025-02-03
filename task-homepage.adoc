@@ -64,8 +64,8 @@ You cannot add new licenses or subscriptions from the *Overview* page for a spec
 
 + 
 
-link:task-data-services-licenses.html^[Learn more about managing licenses.]
-link:task-manage-subscriptions.html^[Learn more about managing subscriptions.]
+link:task-data-services-licenses.html[Learn more about managing licenses.]
+link:task-manage-subscriptions.html[Learn more about managing subscriptions.]
 
 +
 
@@ -88,8 +88,8 @@ You can view license and subscription issues that need to be resolved. Issues in
 
 + 
 
-link:task-data-services-licenses.html^[Learn more about managing licenses.]
-link:task-manage-subscriptions.html^[Learn more about managing subscriptions.]
+link:task-data-services-licenses.html[Learn more about managing licenses.]
+link:task-manage-subscriptions.html[Learn more about managing subscriptions.]
 
 +
 
