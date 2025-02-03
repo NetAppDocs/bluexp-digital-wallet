@@ -21,7 +21,7 @@ You'll also be alerted to upcoming capacity limits or expirations and be prompte
 
 === View details about a specific data service
 
-The digital wallet *Overview* pdashboard provides the ability to view details on the following data services:
+The digital wallet *Overview* dashboard provides the ability to view details on the following data services:
 
 * Cloud Volumes ONTAP
 * Disaster recovery
@@ -31,8 +31,9 @@ The digital wallet *Overview* pdashboard provides the ability to view details on
 
 For example, administrators tasked with managing Cloud Volumes ONTAP resources can view the current capacity of each license or subscription which gives them a focused view resources within their purview. 
 
-Note: You can't add a new license or subscription from the *Overview* page.
-+
+Note: Although you can update and remove licenses from the dashboard, you can't add a new license or subscription.
+
+
 link:task-manage-data-services-licenses.html[Learn more about managing licenses^].
 link:task-manage-subscriptions.html[Learn more about managing subscriptions^].
 
