@@ -18,7 +18,7 @@ When you subscribe to BlueXP data services (including Cloud Volumes ONTAP) from 
 * https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html[Learn how to subscribe to BlueXP data services (standard mode)^]
 * https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html[Learn how to subscribe to BlueXP data services (restricted mode)^]
 
-TIP: The *Marketplace subscriptions* page lists all subscriptions. If you want to details for a specific data service, use the data service tiles on the *Overview* page. link:task-homepage.html#overview-page[Learn more about the Overview page].
+NOTE: The *Marketplace subscriptions* page lists all licenses. If you want license details for a specific data service, use the data service tiles on the *Overview* dashboard. link:task-homepage.html#overview-page[Learn more about the Overview dashboard].
 
 
 
