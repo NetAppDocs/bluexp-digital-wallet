@@ -31,6 +31,11 @@ The digital wallet *Overview* page provides the ability to view details on the f
 
 For example, administrators tasked with managing Cloud Volumes ONTAP resources can view the current capacity of each license or subscription which gives them a focused view resources within their purview. 
 
+Note: You can't add a new license or subscription from the *Overview* page.
++
+link:task-manage-data-services-licenses.html[Learn more about managing licenses.]
+link:task-manage-subscriptions.html[Learn more about managing subscriptions.]
+
 .Steps
 
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
