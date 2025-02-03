@@ -61,6 +61,14 @@ image:screenshot_digital_wallet_show_hide_columns.png[screenshot provides an exa
 . Use the actions menu to manage a specific license or subscription, such as update a license or associate a subscription with a different organization.
 + 
 You cannot add new licenses or subscriptions from the *Overview* page for a specific service, you can only add licenses or subscriptions from the *Data service licenses* tab or the *Marketplace subscriptions* tab, respectively.
+
++ 
+
+link:task-data-services-licenses.html^[Learn more about managing licenses.]
+link:task-manage-subscriptions.html^[Learn more about managing subscriptions.]
+
++
+
 +
 
 
