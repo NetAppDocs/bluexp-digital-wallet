@@ -56,7 +56,7 @@ image:screenshot_digital_wallet_filter.png[Filter action on subscription table]
 image:screenshot_digital_wallet_show_hide_columns.png[screenshot provides an example of how to show or hide columns]
 +
 
-. Expand any row to view details of what the subscrption or license includes, capacity purchased, and terms.
+. Expand any row to view details of what the subscription or license includes, capacity purchased, and terms.
 
 . Use the actions menu to manage a specific license or subscription, such as update a license or associate a subscription with a different organization.
 + 
