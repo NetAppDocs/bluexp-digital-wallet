@@ -23,6 +23,7 @@ The instructions on this page provide information that applies to each service. 
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html[Set up licensing for BlueXP disaster recovery^]
 * https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html[Set up licensing for BlueXP ransomware protection^]
 * https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html[Set up licensing for BlueXP tiering^]
+*  https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[Set up licensing for Cloud Volumes ONTAP^]
 
 
 == Obtain a license file
