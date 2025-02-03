@@ -34,6 +34,6 @@ include::_include/task-add-license.adoc[]
 
 == Update a license
 
-include::_include/task-add-license.adoc[]
+include::_include/task-update-license.adoc[]
 
 

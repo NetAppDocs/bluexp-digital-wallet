@@ -4,7 +4,7 @@ permalink: task-homepage.html
 keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap
 summary: Get an overview of all subscriptions and licenses for your organization on the digital homepage.
 ---
-
+[[overview-page]]
 == View licenses and subscriptions status
 :hardbreaks:
 :nofooter:
