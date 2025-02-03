@@ -21,7 +21,7 @@ sidebar:
           url: /concept-digital-wallet.html
     - title: Use the BlueXP digital wallet
       entries:
-        - title: View license and subscription status
+        - title: View licenses and subscriptions by data service
           url: /task-homepage.html
         - title: Manage licenses for Cloud Volumes ONTAP
           entries:
@@ -29,9 +29,9 @@ sidebar:
             url: /task-manage-capacity-licenses.html
           - title: Node-based licenses
             url: /task-manage-node-based-licenses.html
-        - title: Manage licenses for BlueXP data services
+        - title: Manage all licenses
           url: /task-manage-data-services-licenses.html
-        - title: Manage PAYGO subscriptions and contracts
+        - title: Manage all Marketplace subscriptions
           url: /task-manage-subscriptions.html
         - title: Manage Keystone subscriptions
           url: /task-manage-keystone.html
