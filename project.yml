@@ -25,10 +25,12 @@ sidebar:
           url: /task-homepage.html
   
         - title: Manage licenses
-          url: /task-manage-data-services-licenses.html
           entries:
-           - title: Manage licenses for Cloud Volumes ONTAP
-             entries:
+            -title: Manage data service licenses
+            url: /task-manage-data-services-licenses.html
+            entries:
+            - title: Manage licenses for Cloud Volumes ONTAP
+              entries:
               - title: Capacity-based licenses
                 url: /task-manage-capacity-licenses.html
               - title: Node-based licenses
