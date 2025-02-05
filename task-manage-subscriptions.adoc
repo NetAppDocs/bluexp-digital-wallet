@@ -66,6 +66,21 @@ Contracts::
 * If you have an AWS contract and you changed any of the contract's options after the start date, be sure to validate your contract options from the AWS Marketplace.
 * If you have a Google Cloud private offer, contract options aren't available.
 
+== View subscription details
+
+You can view details about a particular subscription or annual contract. 
+
+.Steps
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. Select *Marketplace Subscriptions*.
+
+. Within the *Marketplace subscriptions* table, expand the row of the subscription you'd like to see by selecting the down arrow for the respective row.
++
+The information displays depends on whether it is a PAYGO subscription or annual contract.
+
+
 == Rename a subscription
 
 You can rename a subscription to better identify how it is used in your organization.
