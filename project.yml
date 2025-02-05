@@ -39,7 +39,7 @@ sidebar:
           url: /task-manage-subscriptions.html
         - title: Manage Keystone subscriptions
           url: /task-manage-keystone.html
-        - title: Manage licenses for on-prem ONTAP clusters
+        - title: Manage licenses for on-premises ONTAP 
           url: /task-manage-on-prem-clusters.html
     - title: Knowledge and support
       entries:
