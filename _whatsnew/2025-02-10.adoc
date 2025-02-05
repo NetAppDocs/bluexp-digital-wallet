@@ -1,7 +1,7 @@
 
 The BlueXP digital wallet has been redesigned for ease of use and now provides additional subscription and license management.
 
-=== Home page changes
+=== New Overview dashboard
 The digital wallet homepage has an updated dashboard of your NetApp licenses and Marketplace subscriptions, with the ability to drill-down into specific services, license types and required actions.
 
 === Configuring subscriptions to credentials
