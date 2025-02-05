@@ -21,27 +21,26 @@ sidebar:
           url: /concept-digital-wallet.html
     - title: Use the BlueXP digital wallet
       entries:
-        - title: Use the dashboard overview
-          url: /task-homepage.html
-  
-        - title: Manage licenses
+    - title: Use the Overview dashboard
+      url: /task-homepage.html
+    - title: Manage licenses
+      entries:
+        - title: Manage data service licenses
+          url: /task-manage-data-services-licenses.html
+        - title: Manage licenses for Cloud Volumes ONTAP
           entries:
-            -title: Manage data service licenses
-            url: /task-manage-data-services-licenses.html
-            entries:
-            - title: Manage licenses for Cloud Volumes ONTAP
-              entries:
-              - title: Capacity-based licenses
-                url: /task-manage-capacity-licenses.html
-              - title: Node-based licenses
-                url: /task-manage-node-based-licenses.html
-        - title: Manage Marketplace subscriptions
-          url: /task-manage-subscriptions.html
-        - title: Manage Keystone subscriptions
-          url: /task-manage-keystone.html
-        - title: Manage licenses for on-premises ONTAP 
-          url: /task-manage-on-prem-clusters.html
+            - title: Capacity-based licenses for Cloud Volumes ONTAP
+              url: /task-manage-capacity-licenses.html
+            - title: Node-based licenses for Cloud Volumes ONTAP
+              url: /task-manage-node-based-licenses.html
+    - title: Manage Marketplace subscriptions
+      url: /task-manage-subscriptions.html
+    - title: Manage Keystone subscriptions
+      url: /task-manage-keystone.html
+    - title: Manage licenses for on-premises ONTAP 
+      url: /task-manage-on-prem-clusters.html
     - title: Knowledge and support
+
       entries:
         - title: Register for support
           url: /task-support-registration.html
