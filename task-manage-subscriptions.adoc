@@ -78,7 +78,7 @@ You can view details about a particular subscription or annual contract.
 
 . Within the *Marketplace subscriptions* table, expand the row of the subscription you'd like to see by selecting the down arrow for the respective row.
 +
-The information displays depends on whether it is a PAYGO subscription or annual contract.
+The information displayed varies according to the type of subscription it is (PAYGO or annual contract).
 
 
 == Rename a subscription
