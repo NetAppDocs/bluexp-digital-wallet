@@ -14,7 +14,7 @@ NOTE: If you want to enter the serial number, you first need to https://docs.net
 
 .Steps
 
-. Select the chat icon in the lower-right of BlueXP to request an extension to your term or additional capacity for the license associated with the particular serial number.
+. Contact your NetApp representative to buy a new license.
 +
 After you pay for the license and it is registered with the NetApp Support Site, BlueXP automatically updates the license in the BlueXP digital wallet and the Data service licenses page will reflect the change in 5 to 10 minutes.
 

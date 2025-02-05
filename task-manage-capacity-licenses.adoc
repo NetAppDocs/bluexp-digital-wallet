@@ -71,7 +71,7 @@ The BlueXP digital wallet shows you the total consumed capacity in your account 
 
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
 
-. On the *Overview* tab, the Cloud Volumes ONTAP tile displays the current capacity used for your account. 
+. On the *Overview* tab, the Cloud Volumes ONTAP tile displays the current capacity provisioned for your account. 
 +
 image:screenshot_cvo_overview_digital_wallet.png[a screenshot displaying the capacity summary for your Cloud Volumes ONTAP licenses and subscriptions.]
 +
@@ -107,9 +107,9 @@ You can view details about the capacity used per package by switching to legacy 
 
  . From the BlueXP navigation menu, select *Governance > Digital wallet*.
 
-. On the *Overview* tab, the Cloud Volumes ONTAP tile displays the current capacity used for your account. 
+. On the *Overview* tab, the Cloud Volumes ONTAP tile displays the current capacity provisioned for your account. 
 
-. Select *View* to see the consumed capacity for each of your licensing packages.
+. Select *View* to see the provisioned capacity for each of your licensing packages.
 
 . Select *Switch to Legacy View*.
 +
