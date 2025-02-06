@@ -5,7 +5,7 @@ keywords: digital wallet, cluster, on-prem ontap cluster, onprem cluster, contra
 summary: The BlueXP digital wallet enables you to view contract details for each of your on-prem ONTAP clusters. If you haven't discovered a cluster in BlueXP yet, you can also do that from the digital wallet.
 ---
 
-= Manage licenses for on-premises ONTAP clusters
+= Manage licenses for on-premises ONTAP 
 :hardbreaks:
 :nofooter:
 :icons: font

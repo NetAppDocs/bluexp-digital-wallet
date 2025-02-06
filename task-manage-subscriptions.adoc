@@ -13,14 +13,18 @@ summary: When you subscribe to BlueXP from a cloud provider's marketplace, you'r
 :imagesdir: ./media/
 
 [.lead]
-When you subscribe to BlueXP from a cloud provider's marketplace, you're redirected to the BlueXP website where you need to save your subscription and associate it with specific accounts. After you've subscribed, each subscription is available to manage from the BlueXP digital wallet.
+When you subscribe to BlueXP data services (including Cloud Volumes ONTAP) from a cloud provider's marketplace, you're redirected to the BlueXP website where you need to save your subscription and associate it with your BlueXP organization. After you've subscribed, each subscription is available to manage from the BlueXP digital wallet. 
 
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html[Learn how to subscribe to BlueXP (standard mode)^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html[Learn how to subscribe to BlueXP (restricted mode)^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html[Learn how to subscribe to BlueXP data services (standard mode)^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html[Learn how to subscribe to BlueXP data services (restricted mode)^]
+
+NOTE: The *Marketplace subscriptions* page lists all licenses. If you want license details for a specific data service, use the data service tiles on the *Overview* dashboard. link:task-homepage.html#overview-page[Learn more about the Overview dashboard].
+
+
 
 == View your subscriptions
 
-The BlueXP digital wallet provides details about each PAYGO subscription and annual contract associated with your BlueXP organization or account, and with Astra Control (Astra Control uses BlueXP's charging service).
+The BlueXP digital wallet provides details about each PAYGO subscription and annual contract associated with your BlueXP organization or account.
 
 For Google Cloud, you can also identify marketplace subscriptions that are associated with a private offer, which enables you to verify that you've successfully accepted the offer.
 
@@ -28,11 +32,13 @@ For Google Cloud, you can also identify marketplace subscriptions that are assoc
 
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
 
-. Select *Subscriptions*.
+. Select *Marketplace Subscriptions*.
 +
-You'll only see the subscriptions that are associated with the account that you're currently viewing.
+You'll only see the subscriptions that are associated with the organization that you are that you're currently viewing. 
 
 . As you view the information about your subscriptions, you can interact with the details in the table as follows:
++
+* Use Advanced Search and Filtering to determine which subscriptions are shown in the table. You can search by a a specific name of a subscription and filter by a variety of subscription parameters such as type and configuration.
 +
 * Expand a row to view more details.
 +
@@ -60,20 +66,130 @@ Contracts::
 * If you have an AWS contract and you changed any of the contract's options after the start date, be sure to validate your contract options from the AWS Marketplace.
 * If you have a Google Cloud private offer, contract options aren't available.
 
-== Manage your subscriptions
 
-You can manage your subscriptions from the BlueXP digital wallet by renaming a subscription and choosing the accounts that are associated with the subscription.
+== Rename a subscription
 
-For example, let's say that you have two accounts and each is billed through separate subscriptions. You might disassociate a subscription from one of the accounts so the users in that account don't accidentally choose the wrong subscription when creating a Cloud Volumes ONTAP working environment.
+You can rename a subscription to better identify how it is used in your organization.
 
 .Steps
 
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
 
-. Select *Subscriptions*.
+. Select *Marketplace Subscriptions*.
 
-. Select the action menu in the row that corresponds to the subscription that you want to manage.
-+
-image:screenshot-subscription-menu.png[A screenshot of the action menu for a subscription.]
+. Select the action menu in the row that corresponds to the subscription that you want to manage and choose *Rename*.
++ 
+image:screenshot_rename_subscription.png[A screenshot of the Rename option for a subscription.]
 
-. Choose to rename the subscription or to manage the BlueXP organizations or accounts that are associated with the subscription.
+
+== Configure a subscription with a provider credential
+
+Subscriptions are typically configured with the provider credential that you created when you subscribed. In some cases, you may need to reconfigure a subscription to use a different credential if you want to change the way it is charged. The credential you associate with a subscription must be a credential that is also associated with a connector.
+
+The format of the credential depends on the marketplace you are using. For example, Azure marketplace subscriptions are associated with the name of the Azure subscription, while AWS marketplace subscriptions use the AWS account ID. You can see a list of available credentials from the Credentials page. 
+
+The Configure option is grayed out if you have unsubscribed to a subscription.
+
+.Steps
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. Select *Marketplace Subscriptions*.
+
+. Select the action menu in the row that corresponds to the subscription that you want to configure and choose *Configure*.
+
+. In the _Configure_ dialog, choose a credential to which to configure the subscription. You can only choose from credentials that are associated with the currently selected connector. If you don't see the credential that you want to use, try switching to a different connector view. ## is this described accurately? ##
+
+
+== Associate a subscription with a BlueXP organization
+
+Associating a subscription with an organization ensures members of that that organization can use that subscription for charging. 
+
+You can limit use of a subscription to a specific organization or share the subscription between multiple organizations. You can also replace an existing organization's subscription if the need arises. 
+
+You must have the organization admin role in order to associate a subscription with an organization.
+
+NOTE: BlueXP supports Identity and Access Management (IAM) in standard mode which uses organizations to manage users and resources. If you're using BlueXP in private or restricted mode, then you use a BlueXP _account_ to manage users and resources, including subscriptions. 
+
+.Steps
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. Select *Marketplace Subscriptions*.
+
+. Select the action menu in the row that corresponds to the subscription that you want to associate and choose *Associate*.
+
+. In the *Associate the subscription* dialog, choose an organization(s) to which to associate this subscription. 
+
+. Optionally, use the slider to indicate that you are replacing an existing subscription for the selected organization.
+
+. Select *Associate*.
+
+== View credentials associated with a subscription
+
+##You can view the credentials for a specific subscription from the *Marketplace Subscriptions* page in the digital wallet. This allows you to verify how the subscription is being billed. Because credentials are also tied to the connector you are using, you must select the connector associated with the subscription you want to see.##
+
+NOTE: Use the Connector drop-down in the top navigation bar to switch connectors if you need.
+
+.Steps
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. Select *Marketplace Subscriptions*.
+
+. On the row that contains the subscription whose credentials you want to view, select View. If there are multiple credentials associated with a subscription, no credentials may show and you are directed to select a different connector.
+
+== Add a new marketplace subscription
+
+You can subscribe to a marketplace subscription directly from digital wallet.
+
+
+// start tabbed area
+
+[role="tabbed-block"]
+====
+
+.AWS
+--
+The following video shows the steps to subscribe to BlueXP from the AWS Marketplace:
+
+video::096e1740-d115-44cf-8c27-b051011611eb[panopto, title="Subscribe to BlueXP from the AWS Marketplace"]
+--
+
+.Azure
+--
+The following video shows the steps to subscribe from the Azure Marketplace:
+
+video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto, title="Subscribe to BlueXP from the Azure Marketplace"]
+--
+
+.Google Cloud
+--
+The following video shows the steps to subscribe from the Google Cloud Marketplace:
+
+video::373b96de-3691-4d84-b3f3-b05101161638[panopto, title="Subscribe to BlueXP from the Google Cloud Marketplace"]
+--
+
+====
+// end tabbed area
+
+
+
+.Steps
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. Select *Marketplace Subscriptions*.
+
+. Above the *Subscriptions* table, select *Add Subscription*.
+
+. In the _Add Subscription_ dialog, select a cloud provider.
+
+.. If choosing an AWS subscription, choose whether you want an annual contract or PAYGO subscription.
+
+. Select *Add subscription* to navigate to the provider's marketplace and complete the steps provided.
+
+. When finished at the cloud provider marketplace, return to BlueXP to complete the process. 
+
+
+
