@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task-homepage.html
-keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap
+keywords: license, licensing, dashboard, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap
 summary: Get an overview of all subscriptions and licenses for your organization on the digital homepage.
 ---
 [[overview-page]]
@@ -45,7 +45,7 @@ link:task-manage-subscriptions.html[Learn more about managing subscriptions^].
 
 . Select *View* for the respective data service (including Cloud Volumes ONTAP) to view details and manage licenses and subscriptions. 
 +
-Each tile provides a graphical overview of capacity status while the details page allows you to see and manage payment methods for that capacity.
+Each tile provides a graphical overview of capacity. You can view the details page to see and manage payment methods for that capacity.
 +
 
 . Select either the *Licenses* or *Subscriptions* tab. 
@@ -56,7 +56,7 @@ image:screenshot_digital_wallet_filter.png[Filter action on subscription table]
 
 +
 
-. Customize the columns shown in the table. You can add and remove columns from the table by selecting the Column icon indicating which columns you want to show or hide. The following screenshot indicates that only the Type, End Date, Status, and Configuration columns.
+. Customize the columns shown in the table. You can add and remove columns from the table by selecting the *Column* icon indicating which columns you want to show or hide. The following screenshot indicates that only the Type, End Date, Status, and Configuration columns.
 
 +
 image:screenshot_digital_wallet_show_hide_columns.png[screenshot provides an example of how to show or hide columns]
