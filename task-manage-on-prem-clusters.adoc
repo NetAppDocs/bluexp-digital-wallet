@@ -57,10 +57,7 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html[Le
 . From the BlueXP navigation menu, select *Governance > Digital wallet*.
 
 . Select *On-Premises ONTAP*.
-+
-image:screenshot_digital_wallet_onprem_main.png[A screenshot of the Digital Wallet page for on-premises ONTAP clusters.]
-+
-Your ONTAP clusters display with a status of whether they have been discovered in BlueXP.
+
 +
 If you are prompted to enter your NetApp Support Site (NSS) account credentials first, select *Add NSS Account*. After you add the account, the clusters associated with that NSS account appear.
 
