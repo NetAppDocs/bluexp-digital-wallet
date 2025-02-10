@@ -45,7 +45,7 @@ link:task-manage-subscriptions.html[Learn more about managing subscriptions^].
 
 . Select *View* for the respective data service (including Cloud Volumes ONTAP) to view details and manage licenses and subscriptions. 
 +
-Each tile provides a graphical overview of capacity status while the details page allows you to see and manage payment methods for that capacity.
+Each tile provides a graphical overview of capacity. You can view the details page to see and manage payment methods for that capacity.
 +
 
 . Select either the *Licenses* or *Subscriptions* tab. 
