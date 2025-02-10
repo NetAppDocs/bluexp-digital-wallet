@@ -56,7 +56,7 @@ image:screenshot_digital_wallet_filter.png[Filter action on subscription table]
 
 +
 
-. Customize the columns shown in the table. You can add and remove columns from the table by selecting the Column icon indicating which columns you want to show or hide. The following screenshot indicates that only the Type, End Date, Status, and Configuration columns.
+. Customize the columns shown in the table. You can add and remove columns from the table by selecting the *Column* icon indicating which columns you want to show or hide. The following screenshot indicates that only the Type, End Date, Status, and Configuration columns.
 
 +
 image:screenshot_digital_wallet_show_hide_columns.png[screenshot provides an example of how to show or hide columns]
