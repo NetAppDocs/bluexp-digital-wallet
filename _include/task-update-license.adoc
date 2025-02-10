@@ -1,0 +1,29 @@
+
+If your licensed term is nearing expiration, or if your licensed capacity is reaching the limit, you'll be notified in the BlueXP digital wallet. You can update your license before it expires so that there is no interruption in your ability to use a BlueXP data service or Cloud Volumes ONTAP.
+
+After you purchase additional capacity from NetApp or extend the term of your license, BlueXP automatically updates the license in the digital wallet when the BlueXP account associated with the license is also an NetApp Support Site account and BlueXP has access to the internet.
+
+If your BlueXP account is not associated with your NSS account, you'll need to manually update a license. 
+
+You can manually update your license in BlueXP either by entering the serial number and the associated NSS account, or by uploading the NetApp license file (or _files_ if you have a Cloud Volumes ONTAP HA pair). You should obtain a NetApp license file to upload if BlueXP does not have internet access (private mode installations).
+
+After you purchase a license from your NetApp sales representative, NetApp sends you an email with the serial number and additional licensing details. You'll need that serial number to add or update the respective license in digital wallet.
+
+NOTE: If you want to enter the serial number, you first need to https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html[add your NetApp Support Site account to BlueXP^]. This is the NetApp Support Site account that's authorized to access the serial number.
+
+
+.Steps
+
+. Contact your NetApp representative to buy a new license.
++
+After you pay for the license and it is registered with the NetApp Support Site, BlueXP automatically updates the license in the BlueXP digital wallet and the Data service licenses page will reflect the change in 5 to 10 minutes.
+
++
+
+. If BlueXP can't automatically update the license (for example, when using BlueXP in private mode), then you'll need to obtain a NetApp license file from support and manually upload the license file. <<obtain-license,Learn how to obtain a license file.>>
+. On the _Data service licenses_ tab, select image:icon-action.png[More icon] for the  serial number you are updating, and select *Update license*.
++
+
+. In the _Update license_ page, upload the license file and select *Update License*.
+
+

@@ -14,8 +14,13 @@ indexpage:
           url: task-manage-capacity-licenses.html
         - title: Manage licenses for BlueXP data services
           url: task-manage-data-services-licenses.html
-        - title: Manage PAYGO subscriptions and contracts
-          url: task-manage-subscriptions.html
+       
+    - title: Manage your subscriptions
+      links:
+       - title: Manage Marketplace subscriptions and contracts
+         url: task-manage-subscriptions.html
+       - title: Manage Keystone subscriptions
+         url: task-manage-keystone.html
     - title: Blogs & community
       links:
         - title: NetApp Community

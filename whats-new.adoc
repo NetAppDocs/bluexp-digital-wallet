@@ -16,6 +16,11 @@ Learn what's new with the BlueXP digital wallet.
 //All links and images must use the absolute URL.
 
 // tag::whats-new[]
+
+== 10 February 2025
+
+include::_whatsnew/2025-02-10.adoc[]
+
 == 5 March 2024
 
 include::_whatsnew/2024-03-05.adoc[]
@@ -23,11 +28,12 @@ include::_whatsnew/2024-03-05.adoc[]
 == 30 July 2023
 
 include::_whatsnew/2023-07-30.adoc[]
+// end::whats-new[]
 
 == 7 May 2023
 
 include::_whatsnew/2023-05-07.adoc[]
-// end::whats-new[]
+
 
 == 3 April 2023
 
