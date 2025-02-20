@@ -190,5 +190,20 @@ video::373b96de-3691-4d84-b3f3-b05101161638[panopto, title="Subscribe to BlueXP 
 
 . When finished at the cloud provider marketplace, return to BlueXP to complete the process. 
 
+=== Remove a subscription
+
+The subscription list in digital wallet displays all present and past subscriptions even if you are unsubscribed to the particular subscription. You can remove subscriptions from the list when they have a status of Unsubscribed.
+
+.Steps
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. Select *Marketplace Subscriptions*.
+
+. Select the action menu in the row that corresponds to the subscription that you want to remove choose *Remove*.
++
+You can only remove subscriptions that have an Unsubscribed status.
+
+. In the *Remove subscription* dialog, confirm that you want to remove the subscription. 
 
 
