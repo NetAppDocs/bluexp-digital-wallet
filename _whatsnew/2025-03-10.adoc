@@ -1,0 +1,11 @@
+
+
+
+=== Ability to remove subscriptions
+You can now remove subscriptions from the digital wallet if you have unsubscribed.
+
+=== CLoud Volume ONTAP details added
+When viewing license packages for Cloud Volumes ONTAP, you can see the units in which the contract is billed. For example, if you are being billed per node or per TiB.
+
+
+
