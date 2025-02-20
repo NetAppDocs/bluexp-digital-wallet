@@ -22,7 +22,7 @@ Learn what's new with the BlueXP digital wallet.
 
 include::_whatsnew/2025-03-10.adoc[]
 
-image:icon-demo.svg[link="https://mydemo.netapp.com/player/?demoId=c96ef113-c338-4e44-9bda-81a8d252de63&showGuide=true&showGuidesToolbar=true&showHotspots=true&source=app", alt="Select the icon to view a guided demo."]  Select to view a guided demo.
+image:icon-demo.svg[link="https://mydemo.netapp.com/player/?demoId=c96ef113-c338-4e44-9bda-81a8d252de63&showGuide=true&showGuidesToolbar=true&showHotspots=true&source=app", alt="Select the icon to view a guided demo."]  Select to view a guided demo in a new window.
 
 
 == 10 February 2025
