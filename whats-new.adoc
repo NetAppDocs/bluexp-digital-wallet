@@ -3,6 +3,7 @@ sidebar: sidebar
 permalink: whats-new.html
 keywords: what's new, features, new, release notes, enhancements, fixes, digital wallet, bluexp digital wallet
 summary: Learn what's new with the BlueXP digital wallet.
+
 ---
 = What's new
 :hardbreaks:
@@ -20,6 +21,8 @@ Learn what's new with the BlueXP digital wallet.
 == 10 March 2025
 
 include::_whatsnew/2025-03-10.adoc[]
+
+image:icon-demo.svg[link="https://mydemo.netapp.com/player/?demoId=c96ef113-c338-4e44-9bda-81a8d252de63&showGuide=true&showGuidesToolbar=true&showHotspots=true&source=app", alt="Select the icon to view a guided demo."]
 
 
 == 10 February 2025
