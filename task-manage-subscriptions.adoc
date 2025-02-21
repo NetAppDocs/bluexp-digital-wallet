@@ -192,7 +192,10 @@ video::373b96de-3691-4d84-b3f3-b05101161638[panopto, title="Subscribe to BlueXP 
 
 === Remove a subscription
 
-The subscription list in digital wallet displays all present and past subscriptions even if you are unsubscribed to the particular subscription. You can remove subscriptions from the list when they have a status of Unsubscribed.
+
+When you unsubscribe from a BlueXP subscription in the hyperscaler, the digital wallet displays the subscription status as *Unsubscribed*.
+
+You can remove Unsubscribed subscriptions from digital wallet so they no longer display.
 
 .Steps
 
