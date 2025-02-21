@@ -192,8 +192,7 @@ video::373b96de-3691-4d84-b3f3-b05101161638[panopto, title="Subscribe to BlueXP 
 
 === Remove a subscription
 
-
-When you unsubscribe from a BlueXP subscription in the hyperscaler, the digital wallet displays the subscription status as *Unsubscribed*.
+When you unsubscribe from a BlueXP subscription in the hyperscaler (AWS Google Cloud, or Azure), the digital wallet displays the subscription status as *Unsubscribed*.
 
 You can remove Unsubscribed subscriptions from digital wallet so they no longer display.
 
@@ -205,7 +204,7 @@ You can remove Unsubscribed subscriptions from digital wallet so they no longer 
 
 . Select the action menu in the row that corresponds to the subscription that you want to remove choose *Remove*.
 +
-You can only remove subscriptions that have an Unsubscribed status.
+You can only remove subscriptions that have a status of *Unsubscribed*.
 
 . In the *Remove subscription* dialog, confirm that you want to remove the subscription. 
 
