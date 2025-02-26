@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: whats-new.html
-keywords: what's new, features, new, release notes, enhancements, fixes, digital wallet, bluexp digital wallet
+keywords: what's new, features, release notes, enhancements, fixes, digital wallet, bluexp digital wallet
 summary: Learn what's new with the BlueXP digital wallet.
 
 ---
