@@ -4,8 +4,8 @@
 === Ability to remove subscriptions
 You can now remove subscriptions from the digital wallet if you have unsubscribed from them.
 
-=== Cloud Volume ONTAP details added
-When viewing license packages for Cloud Volumes ONTAP, you can see the units in which the contract is billed. For example, you can see if the contract is billed per node or per TiB.
+=== View consumed capacity for PAYGO subscriptions
+When viewing PAYGO subscriptions, you can now view the consumed capacity of the subscription.
 
 
 
