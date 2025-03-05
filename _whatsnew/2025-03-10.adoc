@@ -1,6 +1,5 @@
 
 
-
 === Ability to remove subscriptions
 You can now remove subscriptions from the digital wallet if you have unsubscribed from them.
 
