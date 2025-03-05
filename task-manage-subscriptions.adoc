@@ -98,8 +98,7 @@ The Configure option is grayed out if you have unsubscribed to a subscription.
 
 . Select the action menu in the row that corresponds to the subscription that you want to configure and choose *Configure*.
 
-. In the _Configure_ dialog, choose a credential to which to configure the subscription. You can only choose from credentials that are associated with the currently selected connector. If you don't see the credential that you want to use, try switching to a different connector view. ## is this described accurately? ##
-
+. In the _Configure_ dialog, choose a credential to which to configure the subscription. You can only choose from credentials that are associated with the currently selected connector. If you don't see the credential that you want to use, try switching to a different connector view.
 
 == Associate a subscription with a BlueXP organization
 
@@ -127,7 +126,7 @@ NOTE: BlueXP supports Identity and Access Management (IAM) in standard mode whic
 
 == View credentials associated with a subscription
 
-##You can view the credentials for a specific subscription from the *Marketplace Subscriptions* page in the digital wallet. This allows you to verify how the subscription is being billed. Because credentials are also tied to the connector you are using, you must select the connector associated with the subscription you want to see.##
+You can view the credentials for a specific subscription from the *Marketplace Subscriptions* page in the digital wallet. This allows you to verify how the subscription is being billed. Because credentials are also tied to the connector you are using, you must select the connector associated with the subscription you want to see.
 
 NOTE: Use the Connector drop-down in the top navigation bar to switch connectors if you need.
 
@@ -191,5 +190,22 @@ video::373b96de-3691-4d84-b3f3-b05101161638[panopto, title="Subscribe to BlueXP 
 
 . When finished at the cloud provider marketplace, return to BlueXP to complete the process. 
 
+=== Remove a subscription
+
+When you unsubscribe from a BlueXP subscription in the hyperscaler (AWS Google Cloud, or Azure), the digital wallet displays the subscription status as *Unsubscribed*.
+
+You can remove Unsubscribed subscriptions from digital wallet so they no longer display.
+
+.Steps
+
+. From the BlueXP navigation menu, select *Governance > Digital wallet*.
+
+. Select *Marketplace Subscriptions*.
+
+. Select the action menu in the row that corresponds to the subscription that you want to remove choose *Remove*.
++
+You can only remove subscriptions that have a status of *Unsubscribed*.
+
+. In the *Remove subscription* dialog, confirm that you want to remove the subscription. 
 
 
