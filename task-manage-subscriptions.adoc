@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task-manage-subscriptions.html
-keywords: digital wallet, subscriptions, paygo subscriptions, contracts, annual contracts
+keywords: digital wallet, subscriptions, paygo subscriptions, contracts, annual contracts, capacity
 summary: When you subscribe to BlueXP from a cloud provider's marketplace, you're redirected to the BlueXP website where you need to save your subscription and associate it with specific accounts. After you've subscribed, each subscription is available to manage from the BlueXP digital wallet.
 ---
 
