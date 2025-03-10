@@ -1,8 +1,9 @@
 ---
 sidebar: sidebar
 permalink: whats-new.html
-keywords: what's new, features, new, release notes, enhancements, fixes, digital wallet, bluexp digital wallet
+keywords: what's new, features, release notes, enhancements, fixes, digital wallet, bluexp digital wallet, licenses
 summary: Learn what's new with the BlueXP digital wallet.
+
 ---
 = What's new
 :hardbreaks:
@@ -16,6 +17,10 @@ Learn what's new with the BlueXP digital wallet.
 //All links and images must use the absolute URL.
 
 // tag::whats-new[]
+
+== 10 March 2025
+
+include::_whatsnew/2025-03-10.adoc[]
 
 == 10 February 2025
 
