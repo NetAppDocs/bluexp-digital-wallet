@@ -19,6 +19,8 @@ The BlueXP digital wallet enables you to manage and monitor BlueXP licenses purc
 
 Both licenses and subscriptions automatically display in digital wallet when the BlueXP account used to subscribe is also an NetApp Support Site account. If you used a BlueXP account that is not associated with your NetApp Support Site (NSS) account, you'll need to manually add and update licenses and you won't see usage, capacity, and other details change.
 
+NOTE: You need to have deployed a Connector in order to view subscription information in digital wallet. A Connector is also needed to view node licenses for Cloud Volumes ONTAP.
+
 In the meantime, BlueXP automatically queries NetApp's licensing service to obtain details about the licenses associated with your NetApp Support Site account. If there are no errors, BlueXP automatically adds the licenses to the digital wallet.
 
 If BlueXP can't add the license, you'll need to manually add it to the digital wallet yourself. For example, if your BlueXP user account is not associated with your NetApp Support Site account, you'll need to add the licenses yourself. 
